@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Basic Three.js App</title>
-    <style>
-        html, body{margin: 0; padding: 0; overflow: hidden;}
-    </style>
-</head>
-<body>
-<h1> Hello World </h1>
-<p> Guess who is lame? </p>
-<p> Rama is! </p>
-</body>
+    <head>
+        <title>Basic Three.js App</title>
+        <script src="js/three.min.js"></script>
+        <style>
+            html, body{margin: 0; padding: 0; overflow: hidden;}
+        </style>
+    </head>
+    <body>
+        <script>
+            var cars = ["Saab", "thomas", 46];
+
+            var text = "<ul>";
+            for (var i=0; i<cars.length;i++){
+                text+="<b>" + cars[i]+ "</b>";
+            }
+            text += "</ul>";
+
+            document.getElementById("item").innerHTML = text;
+        </script>
+    </body>
 </html>
