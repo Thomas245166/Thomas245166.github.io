@@ -2,24 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41ee0199-1e0e-4c86-b567-5b0db01bc24b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/assets/Assets/Models/PBR/BusterDrone/Materials/Boden_baseColor.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/Assets/Models/PBR/BusterDrone/Materials/body_AO.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/Assets/Models/PBR/BusterDrone/Materials/body_albedo2048.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/Assets/Models/PBR/BusterDrone/Materials/body_emissive.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/Assets/Models/PBR/BusterDrone/Materials/body_metalgloss2048_converted_metalRoughness.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/Assets/Models/PBR/BusterDrone/Materials/body_normal.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/Assets/Models/PBR/BusterDrone/Materials/concrete_044_metalGloss_converted_metalRoughness.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/Assets/Models/PBR/BusterDrone/Materials/concrete_044_normal1024.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/Assets/Models/PBR/BusterDrone/Materials/leg_AO.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/Assets/Models/PBR/BusterDrone/Materials/leg_albedo.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/Assets/Models/PBR/BusterDrone/Materials/leg_metalgloss_converted_metalRoughness.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/Assets/Models/PBR/BusterDrone/Materials/leg_normal1024.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/DUCK.MTL" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/DUCK.OBJ" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/busterDrone.bin" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/busterDrone.gltf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/images/DUCK.TIF" afterPath="" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -37,8 +19,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+            <state relative-caret-position="770">
+              <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -176,12 +158,12 @@
       <workItem from="1516679272572" duration="1933000" />
       <workItem from="1516856630030" duration="863000" />
       <workItem from="1518374294383" duration="1694000" />
-      <workItem from="1518382093853" duration="2212000" />
+      <workItem from="1518382093853" duration="3512000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7248000" />
+    <option name="totallyTimeSpent" value="8548000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -358,8 +340,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        <state relative-caret-position="770">
+          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding />
         </state>
       </provider>
