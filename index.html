@@ -1,13 +1,11 @@
 <html>
 <head>
     <script src="libs/aframe.min.js"></script>
-
     <script src="https://cdn.rawgit.com/donmccurdy/aframe-extras/v1.14.0/dist/aframe-extras.min.js"></script>
 </head>
 <body>
 
 <a-scene>
-
 
     <a-assets>
         <audio id="blip1" src="assets/horned_owl.wav"></audio>
@@ -15,11 +13,13 @@
         <img id = "skyTexture" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/sechelt.jpg">
         <img id="groundTexture" src="assets/floor.jpg">
         <img id="wallTexture" src="assets/wood.jpg">
+        <a-asset-item id="ceiling fan-obj" src="assets/540 Ceiling Fan.obj"></a-asset-item>
+        <a-asset-item id="ceiling fan-mtl" src="assets/540 Ceiling Fan.mtl"></a-asset-item>
     </a-assets>
 
     <a-sky color="#ECECEC"></a-sky>
 
-    <a-entity position="0 0 0">
+    <a-entity position="0 2 0">
         <a-camera universal-controls>
             <a-entity raycaster="far: 150; objects: .intersectable" cursor geometry="primitive: ring; radiusOuter: 0.015;
                               radiusInner: 0.01; segmentsTheta: 32" material="color: #283644; shader: flat" position="0 0 -0.75"></a-entity>
@@ -27,17 +27,20 @@
     </a-entity>
 
 
-    <a-box color="tomato" position="5 0 0" depth="2" height="1" width="1" class="intersectable">
+    <a-box color="tomato" position="5 0 0" depth="4" height="4" width="4" class="intersectable">
        <a-animation begin="click" attribute="position" from="5 0 0" to= "25 0 0" dur="3000"></a-animation>
     </a-box>
 
-    <a-box material="color:tomato;transparent:true;opacity:0" depth="2" height="2" width="2" sound="src: url(assets/horned_owl.wav); on: click" class="intersectable" position="5 1.5 6"></a-box>
+    <a-box material="color:tomato;transparent:true;opacity:0" depth="4" height="4" width="4" sound="src: url(assets/horned_owl.wav); on: click" class="intersectable" position="5 1.5 6"></a-box>
 
-    <a-obj-model src="assets/AngryBirdsRedsMask.obj" mtl="assets/AngryBirdsRedsMask.mtl" position="5 1.5 6"></a-obj-model>
 
-    <a-obj-model src="assets/StarDestroyer.obj" position="5 3 -5" rotation = "0 180 0" class="intersectable">
-        <a-animation begin="click" attribute="position" from="5 0 0" to= "25 0 0" dur="3000"></a-animation>
-    </a-obj-model>
+    <a-entity obj-model="obj: #ceiling fan-obj; mtl: #ceiling fan-mtl" position="0 7 0" rotation = "0 160 0" scale = ".01 .01 .01">
+        <a-animation attribute="rotation" from="0 160 0" to= "0 0 0" dur="3000"></a-animation>
+    </a-entity>
+
+
+    <a-obj-model src="assets/StarDestroyer.obj" position="5 3 -5" rotation = "0 180 0" class="intersectable"></a-obj-model>
+
 
     <a-entity collada-model="url(assets/stormtrooper.dae)" rotation="90 0 0" position="-2 0 -2"></a-entity>
 
@@ -52,6 +55,11 @@
 
     <!--floor-->
     <a-plane src =#groundTexture rotation="-90 0 0" width = "20" height="30" repeat="10 10"></a-plane>
+
+    <!--like button-->
+    <a-box color="blue" position = "0 3 -14.5" height=".5" width=".5" class="intersectable">
+        <a-animation begin="click" attribute="position" from="0 3 -14.5" to= "0 3 -15" to dur="1000"></a-animation>
+    </a-box>
 
     <!-- lights-->
     <a-light type="point" intensity="1" position="2 4 4"></a-light>
