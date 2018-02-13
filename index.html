@@ -19,16 +19,18 @@
 
     <a-sky color="#ECECEC"></a-sky>
 
+
+    <!--
     <a-entity position="0 2 0">
         <a-camera universal-controls>
             <a-entity raycaster="far: 150; objects: .intersectable" cursor geometry="primitive: ring; radiusOuter: 0.015;
                               radiusInner: 0.01; segmentsTheta: 32" material="color: #283644; shader: flat" position="0 0 -0.75"></a-entity>
         </a-camera>
-    </a-entity>
+    </a-entity>-->
 
-
-    <a-entity geometry="primitive: plane; height: 8.8; width: 6.2" position="5.5 4.5 -28.98" rotation="0 0 0" material="shader: flat; transparent: true; src: url(images/Fake-Lighter.png)" scale =".5 .5 .5"></a-entity>
-    <a-entity geometry="primitive: box; depth: 1; height: 11; width: 8" position="5.5 4.2 -29.5" rotation="0 0 0" material="shader: standard; roughness: 1; src: url(images/mount.jpg); repeat: 1 2" scale =".5 .5 .5"></a-entity>
+    <!--Employee of Month frames-->
+    <a-entity geometry="primitive: plane; height: 2.2; width: 1.8" position="5 5 -28.98" rotation="0 0 0" material="shader: flat; transparent: true; src: url(images/Fake-Lighter.png)"></a-entity>
+    <a-entity geometry="primitive: box; depth: 1; height: 2.5; width: 2" position="5 5 -29.5" rotation="0 0 0" material="shader: standard; roughness: 1; src: url(images/mount.jpg); repeat: 1 2"></a-entity>
 
 
     <a-box color="tomato" position="5 0 0" depth="4" height="4" width="4" class="intersectable">
@@ -38,13 +40,8 @@
     <a-box material="color:tomato;transparent:true;opacity:0" depth="4" height="4" width="4" sound="src: url(assets/horned_owl.wav); on: click" class="intersectable" position="5 1.5 6"></a-box>
 
 
-    <a-entity obj-model="obj: #ceiling fan-obj; mtl: #ceiling fan-mtl" position="0 7 0" rotation = "0 0 0" scale = ".01 .01 .01">
-        <a-animation attribute="rotation" dur="5000" to="0 360 0" repeat="indefinite"></a-animation>
-    </a-entity>
-
-
+    <!-- Scott's StarDestroyer -->
     <a-obj-model src="assets/StarDestroyer.obj" position="5 3 -5" rotation = "0 180 0" class="intersectable"></a-obj-model>
-
 
     <!-- walls-->
     <a-box src =#wallTexture color="tomato" height="10" width="40" depth="1" position = "0 5 -30" rotation="0 0 0" ></a-box>
@@ -63,8 +60,12 @@
         <a-animation begin="click" attribute="position" from="0 3 -14.5" to= "0 3 -15" to dur="1000"></a-animation>
     </a-box>
 
-    <!-- lights-->
+    <!-- lights and ceiling fans-->
     <a-light type="point" intensity="1" position="0 6.5 0"></a-light>
+    <a-entity obj-model="obj: #ceiling fan-obj; mtl: #ceiling fan-mtl" position="0 7 0" rotation = "0 0 0" scale = ".01 .01 .01">
+        <a-animation attribute="rotation" dur="5000" to="0 360 0" repeat="indefinite"></a-animation>
+    </a-entity>
+
     <a-light type="ambient" color="#445451"></a-light>
 </a-scene>
 
