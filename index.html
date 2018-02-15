@@ -20,23 +20,24 @@
     <a-sky color="#ECECEC"></a-sky>
 
 
-   
+   <!--
     <a-entity position="0 2 0">
         <a-camera universal-controls>
             <a-entity raycaster="far: 150; objects: .intersectable" cursor geometry="primitive: ring; radiusOuter: 0.015;
                               radiusInner: 0.01; segmentsTheta: 32" material="color: #283644; shader: flat" position="0 0 -0.75"></a-entity>
         </a-camera>
-    </a-entity>
+    </a-entity>-->
 
     <!--Employee of Month frames-->
     <a-entity geometry="primitive: plane; height: 2.2; width: 1.8" position="5 5 -28.98" rotation="0 0 0" material="shader: flat; transparent: true; src: url(images/Cat-Swag.png)"></a-entity>
     <a-entity geometry="primitive: box; depth: 1; height: 2.5; width: 2" position="5 5 -29.5" rotation="0 0 0" material="shader: standard; roughness: 1; src: url(images/mount.jpg); repeat: 1 2"></a-entity>
 
-
+    <!--test animation-->
     <a-box color="tomato" position="5 0 0" depth="4" height="4" width="4" class="intersectable">
        <a-animation begin="click" attribute="position" from="5 0 0" to= "25 0 0" dur="3000"></a-animation>
     </a-box>
-
+    
+    <!--test sound-->
     <a-box material="color:tomato;transparent:true;opacity:0" depth="4" height="4" width="4" sound="src: url(assets/horned_owl.wav); on: click" class="intersectable" position="5 1.5 6"></a-box>
 
 
@@ -63,10 +64,8 @@
     <!-- lights and ceiling fans-->
     <a-light type="point" intensity="1" position="0 6.5 0"></a-light>
     <a-entity obj-model="obj: #ceiling fan-obj; mtl: #ceiling fan-mtl" position="0 7 0" rotation = "0 0 0" scale = ".01 .01 .01">
-        <a-animation attribute="rotation" dur="5000" to="0 360 0" repeat="indefinite"></a-animation>
+        <a-animation attribute="rotation" dur="500000000000000000" to="0 360 0" repeat="indefinite"></a-animation>
     </a-entity>
-
-    <a-light type="ambient" color="#445451"></a-light>
 </a-scene>
 
 </body>
