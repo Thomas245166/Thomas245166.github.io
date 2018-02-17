@@ -3,21 +3,45 @@ Thomas Sanchez
 all rights reserved
 
 #Credit
-Damon Pidhajecky:Alien Jetpack Go! https://poly.google.com/view/7VJiMcRcn6d
+Justin Randall: Window 
+https://poly.google.com/view/dwBpM-aSA_t
 
-Poly by Google: Fireplace https://poly.google.com/view/6XDexoAkTD2
+Lachlan Sleight: Cozy Kitchen 
+https://poly.google.com/view/6bOTntCJyyK
 
-Wanja Pflüger: BookShelf https://poly.google.com/view/15B0ihXkg3C
+Eric Finn: R2D2 
+https://poly.google.com/view/dPgkqmBDqgH
 
-SBarry: Sofa https://free3d.com/3d-model/sofa-27121.html
+Damon Pidhajecky: Alien Jetpack Go! 
+https://poly.google.com/view/7VJiMcRcn6d
 
-Hesen: Wall HDTV https://free3d.com/3d-model/hd-tv-28251.html
+Poly by Google: Fireplace 
+https://poly.google.com/view/6XDexoAkTD2
 
-Adrian Hon: Bar v2 https://poly.google.com/view/9f9xBGPIrtp
+Poly by Google: Bed 
+https://poly.google.com/view/9ycLAR71SmR
 
-Sciman101: Door https://poly.google.com/view/eexB7rtcCTT
+Wanja Pflüger: BookShelf 
+https://poly.google.com/view/15B0ihXkg3C
 
-kjpargeter: Black quilted texture https://www.freepik.com/free-photo/black-quilted-texture_871291.htm#term=leather sofa&page=1&position=0
+SBarry: Sofa 
+https://free3d.com/3d-model/sofa-27121.html
 
-Star texture: https://www.artstation.com/artwork/1De53
-Scott English: StarDestoryer.obj : All rights reserved to the Disney Corporation: Star Wars
+Hesen: Wall HDTV 
+https://free3d.com/3d-model/hd-tv-28251.html
+
+Adrian Hon: Bar v2 
+https://poly.google.com/view/9f9xBGPIrtp
+
+Sciman101: Door 
+https://poly.google.com/view/eexB7rtcCTT
+
+kjpargeter: 
+Black quilted texture https://www.freepik.com/free-photo/black-quilted-texture_871291.htm#term=leather_sofa&page=1&position=0
+
+Star texture: 
+https://www.artstation.com/artwork/1De53
+
+Scott English: StarDestoryer.obj 
+
+All rights reserved to the Disney Corporation: Star Wars
