@@ -4,28 +4,29 @@
     <script src="https://cdn.rawgit.com/donmccurdy/aframe-extras/v1.14.0/dist/aframe-extras.min.js"></script>
 </head>
 <body>
-
 <a-scene>
 
     <a-assets>
-    <audio id="blip1" src="assets/horned_owl.wav"></audio>
-    <img id="groundTexture" src="assets/floor.jpg">
-    <img id="wallTexture" src="assets/wood.jpg">
-    <img id="Sofa" src="assets/sofa.jpg">
-    <img id="star" src="assets/star.jpg">
+        <audio id="blip1" src="assets/horned_owl.wav"></audio>
+        <img id="groundTexture" src="assets/floor.jpg">
+        <img id="wallTexture" src="assets/wood.jpg">
+        <img id="Sofa" src="assets/sofa.jpg">
+        <img id="star" src="assets/star.jpg">
 
-    <a-asset-item id="ceiling fan-obj" src="assets/540 Ceiling Fan.obj"></a-asset-item>
-    <a-asset-item id="ceiling fan-mtl" src="assets/540 Ceiling Fan.mtl"></a-asset-item>
-    <a-asset-item id="Fireplace-obj" src="assets/Fireplace.obj"></a-asset-item>
-    <a-asset-item id="Fireplace-mtl" src="assets/Fireplace.mtl"></a-asset-item>
-    <a-asset-item id="bookshelf-obj" src="assets/bookshelf.obj"></a-asset-item>
-    <a-asset-item id="bookshelf-mtl" src="assets/bookshelf.mtl"></a-asset-item>
+        <a-asset-item id="ceiling fan-obj" src="assets/540 Ceiling Fan.obj"></a-asset-item>
+        <a-asset-item id="ceiling fan-mtl" src="assets/540 Ceiling Fan.mtl"></a-asset-item>
+        <a-asset-item id="Fireplace-obj" src="assets/Fireplace.obj"></a-asset-item>
+        <a-asset-item id="Fireplace-mtl" src="assets/Fireplace.mtl"></a-asset-item>
+        <a-asset-item id="bookshelf-obj" src="assets/bookshelf.obj"></a-asset-item>
+        <a-asset-item id="bookshelf-mtl" src="assets/bookshelf.mtl"></a-asset-item>
+        <a-asset-item id="bar-obj" src="assets/bar.obj"></a-asset-item>
+        <a-asset-item id="bar-mtl" src="assets/bar.mtl"></a-asset-item>
         <img id="boxTexture" src="https://i.imgur.com/mYmmbrp.jpg" crossorigin="anonymous">
         <img id="skyTexture" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/sechelt.jpg" crossorigin="anonymous">
     </a-assets>
 
 
-    <a-sky color="#ECECEC" material="" geometry="" id="sky" ></a-sky>
+    <a-sky color="#ECECEC" material="" geometry="" id="sky"></a-sky>
 
     
     <a-entity position="0 2 0">
@@ -35,33 +36,82 @@
          </a-camera>
     </a-entity>
 
-    <!--Employee of Month frames-->
-    <a-entity geometry="primitive:plane;height:2.2;width:1.8" position="18 5 -28.98" material="shader:flat;transparent:true;src:images/Cat-Swag.png"></a-entity>
 
-    <a-entity geometry="height:2.5;width:2" position="18 5 -29.5" material="repeat:1 2;roughness:1;src:images/mount.jpg" id="Jan"></a-entity>
-    <a-entity geometry="height:2.5;width:2" position="15 5 -29.5" material="repeat:1 2;roughness:1;src:images/mount.jpg" id="Feb"></a-entity>
-    <a-entity geometry="height:2.5;width:2" position="12 5 -29.5" material="repeat:1 2;roughness:1;src:images/mount.jpg" id="march"></a-entity>
-    <a-entity geometry="height:2.5;width:2" position="9 5 -29.5" material="repeat:1 2;roughness:1;src:images/mount.jpg" id="apr"></a-entity>
-    <a-entity geometry="height:2.5;width:2" position="6 5 -29.5" material="repeat:1 2;roughness:1;src:images/mount.jpg" id="may"></a-entity>
-    <a-entity geometry="height:2.5;width:2" position="3 5 -29.5" material="repeat:1 2;roughness:1;src:images/mount.jpg" id="jun"></a-entity>
-    <a-entity geometry="height:2.5;width:2" position="0 5 -29.5" material="repeat:1 2;roughness:1;src:images/mount.jpg" id="july"></a-entity>
-    <a-entity geometry="height:2.5;width:2" position="-3 5 -29.5" material="repeat:1 2;roughness:1;src:images/mount.jpg" id="aug"></a-entity>
-    <a-entity geometry="height:2.5;width:2" position="-6 5 -29.5" material="repeat:1 2;roughness:1;src:images/mount.jpg" id="sept"></a-entity>
-    <a-entity geometry="height:2.5;width:2" position="-9 5 -29.5" material="repeat:1 2;roughness:1;src:images/mount.jpg" id="out"></a-entity>
-    <a-entity geometry="height:2.5;width:2" position="-12 5 -29.5" material="repeat:1 2;roughness:1;src:images/mount.jpg" id="nov"></a-entity>
-    <a-entity geometry="height:2.5;width:2" position="-15 5 -29.5" material="repeat:1 2;roughness:1;src:images/mount.jpg" id="dec"></a-entity>
+        <!--ROOMMATE of the Month frames-->
+    <a-entity geometry="primitive:plane;height:2.2;width:1.8" position="-18 7 -28.98" material="shader:flat;transparent:true;src:images/Cat-Swag.png"></a-entity>
+    <a-entity geometry="primitive:plane;height:2.2;width:1.8" position="-15 7 -28.98" material="shader:flat;transparent:true;src:images/Yawn-Cat.png"></a-entity>
+    <a-entity geometry="primitive:plane;height:2.2;width:1.8" position="-12 7 -28.98" material="shader:flat;transparent:true;src:images/Tiny-Teffs.png"></a-entity>
+    <a-entity geometry="primitive:plane;height:2.2;width:1.8" position="-9 7 -28.98" material="shader:flat;transparent:true;src:images/Tiny-Blep.png"></a-entity>
+    <a-entity geometry="primitive:plane;height:2.2;width:1.8" position="-6 7 -28.98" material="shader:flat;transparent:true;src:images/Purr-ito.png"></a-entity>
+    <a-entity geometry="primitive:plane;height:2.2;width:1.8" position="-3 7 -28.98" material="shader:flat;transparent:true;src:images/Space-Cat.png"></a-entity>
+    <a-entity geometry="primitive:plane;height:2.2;width:1.8" position="0 7 -28.98" material="shader:flat;transparent:true;src:images/Cat-Cone.png"></a-entity>
+    <a-entity geometry="primitive:plane;height:2.2;width:1.8" position="3 7 -28.98" material="shader:flat;transparent:true;src:images/Big-Blep.png"></a-entity>
+    <a-entity geometry="primitive:plane;height:2.2;width:1.8" position="6 7 -28.98" material="shader:flat;transparent:true;src:images/Box-Cat.png"></a-entity>
+    <a-entity geometry="primitive:plane;height:2.2;width:1.8" position="9 7 -28.98" material="shader:flat;transparent:true;src:images/Purr-maid.png"></a-entity>
+    <a-entity geometry="primitive:plane;height:2.2;width:1.8" position="12 7 -28.98" material="shader:flat;transparent:true;src:images/Cat-Nap.png"></a-entity>
+    <a-entity geometry="primitive:plane;height:2.2;width:1.8" position="15 7 -28.98" material="shader:flat;transparent:true;src:images/Cat-Mas.png"></a-entity>
 
+
+    <a-entity geometry="height:2.5;width:2" position="15 7 -29.5" material="repeat:1 2;roughness:1;src:images/mount.jpg" id="Jan"></a-entity>
+    <a-entity geometry="height:2.5;width:2" position="12 7 -29.5" material="repeat:1 2;roughness:1;src:images/mount.jpg" id="Feb"></a-entity>
+    <a-entity geometry="height:2.5;width:2" position="9 7 -29.5" material="repeat:1 2;roughness:1;src:images/mount.jpg" id="march"></a-entity>
+    <a-entity geometry="height:2.5;width:2" position="6 7 -29.5" material="repeat:1 2;roughness:1;src:images/mount.jpg" id="apr"></a-entity>
+    <a-entity geometry="height:2.5;width:2" position="3 7 -29.5" material="repeat:1 2;roughness:1;src:images/mount.jpg" id="may"></a-entity>
+    <a-entity geometry="height:2.5;width:2" position="0 7 -29.5" material="repeat:1 2;roughness:1;src:images/mount.jpg" id="jun"></a-entity>
+    <a-entity geometry="height:2.5;width:2" position="-3 7 -29.5" material="repeat:1 2;roughness:1;src:images/mount.jpg" id="july"></a-entity>
+    <a-entity geometry="height:2.5;width:2" position="-6 7 -29.5" material="repeat:1 2;roughness:1;src:images/mount.jpg" id="aug"></a-entity>
+    <a-entity geometry="height:2.5;width:2" position="-9 7 -29.5" material="repeat:1 2;roughness:1;src:images/mount.jpg" id="sept"></a-entity>
+    <a-entity geometry="height:2.5;width:2" position="-12 7 -29.5" material="repeat:1 2;roughness:1;src:images/mount.jpg" id="out"></a-entity>
+    <a-entity geometry="height:2.5;width:2" position="-15 7 -29.5" material="repeat:1 2;roughness:1;src:images/mount.jpg" id="nov"></a-entity>
+    <a-entity geometry="height:2.5;width:2" position="-18 7 -29.5" material="repeat:1 2;roughness:1;src:images/mount.jpg" id="dec"></a-entity>
+
+    <!--like button-->
+    <a-box color="blue" position="-18 5.2 -29.5" height=".5" width=".5" class="intersectable" material="" geometry="radius:0.3; primitive:cylinder" rotation="90 0 0">
+        <a-animation begin="click" attribute="position" from="0 3 -14.5" to="0 3 -15" dur="1000"></a-animation>
+    </a-box>
+    <a-box color="blue" position="-15 5.2 -29.5" height=".5" width=".5" class="intersectable" material="" geometry="radius:0.3;primitive:cylinder" rotation="90 0 0">
+        <a-animation begin="click" attribute="position" from="0 3 -14.5" to="0 3 -15" dur="1000"></a-animation>
+    </a-box>
+    <a-box color="blue" position="-12 5.2 -29.5" height=".5" width=".5" class="intersectable" material="" geometry="radius:0.3;primitive:cylinder" rotation="90 0 0">
+        <a-animation begin="click" attribute="position" from="0 3 -14.5" to="0 3 -15" dur="1000"></a-animation>
+    </a-box>
+    <a-box color="blue" position="-9 5.2 -29.5" height=".5" width=".5" class="intersectable" material="" geometry="radius:0.3;primitive:cylinder" rotation="90 0 0">
+        <a-animation begin="click" attribute="position" from="0 3 -14.5" to="0 3 -15" dur="1000"></a-animation>
+    </a-box>
+    <a-box color="blue" position="-6 5.2 -29.5" height=".5" width=".5" class="intersectable" material="" geometry="radius:0.3;primitive:cylinder" rotation="90 0 0">
+        <a-animation begin="click" attribute="position" from="0 3 -14.5" to="0 3 -15" dur="1000"></a-animation>
+    </a-box>
+    <a-box color="blue" position="-3 5.2 -29.5" height=".5" width=".5" class="intersectable" material="" geometry="radius:0.3;primitive:cylinder" rotation="90 0 0">
+        <a-animation begin="click" attribute="position" from="0 3 -14.5" to="0 3 -15" dur="1000"></a-animation>
+    </a-box>
+    <a-box color="blue" position="0 5.2 -29.5" height=".5" width=".5" class="intersectable" material="" geometry="radius:0.3; primitive:cylinder" rotation="90 0 0">
+        <a-animation begin="click" attribute="position" from="0 3 -14.5" to="0 3 -15" dur="1000"></a-animation>
+    </a-box>
+    <a-box color="blue" position="3 5.2 -29.5" height=".5" width=".5" class="intersectable" material="" geometry="radius:0.3;primitive:cylinder" rotation="90 0 0">
+        <a-animation begin="click" attribute="position" from="0 3 -14.5" to="0 3 -15" dur="1000"></a-animation>
+    </a-box>
+    <a-box color="blue" position="6 5.2 -29.5" height=".5" width=".5" class="intersectable" material="" geometry="radius:0.3;primitive:cylinder" rotation="90 0 0">
+        <a-animation begin="click" attribute="position" from="0 3 -14.5" to="0 3 -15" dur="1000"></a-animation>
+    </a-box>
+    <a-box color="blue" position="9 5.2 -29.5" height=".5" width=".5" class="intersectable" material="" geometry="radius:0.3;primitive:cylinder" rotation="90 0 0">
+        <a-animation begin="click" attribute="position" from="0 3 -14.5" to="0 3 -15" dur="1000"></a-animation>
+    </a-box>
+    <a-box color="blue" position="12 5.2 -29.5" height=".5" width=".5" class="intersectable" material="" geometry="radius:0.3;primitive:cylinder" rotation="90 0 0">
+        <a-animation begin="click" attribute="position" from="0 3 -14.5" to="0 3 -15" dur="1000"></a-animation>
+    </a-box>
+    <a-box color="blue" position="15 5.2 -29.5" height=".5" width=".5" class="intersectable" material="" geometry="radius:0.3;primitive:cylinder" rotation="90 0 0">
+        <a-animation begin="click" attribute="position" from="0 3 -14.5" to="0 3 -15" dur="1000"></a-animation>
+    </a-box>
 
 
     <!--Fireplace-->
-    <a-entity obj-model="obj:assets/Fireplace.obj; mtl:assets/Fireplace.mtl" position="28.75 0 20.5" scale="0.00027 0.00027 0.00027"></a-entity>
+    <a-entity obj-model="obj:assets/Fireplace.obj;mtl:assets/Fireplace.mtl" position="28.75 0 20.5" scale="0.00027 0.00027 0.00027"></a-entity>
 
 
     <!--bookshelf-->
-    <a-entity obj-model="obj:assets/bookshelf.obj; mtl:assets/bookshelf.mtl" position="18.81 4.5 7.18" scale="2 2 2"  rotation="0 99.78 0"></a-entity>
-    <a-entity obj-model="obj:assets/bookshelf.obj; mtl:assets/bookshelf.mtl" position="18.81 4.5 -11.6" scale="2 2 2" rotation="0 99.78 0"></a-entity>
-    <a-entity obj-model="obj:assets/bookshelf.obj; mtl:assets/bookshelf.mtl" position="18.81 4.5 -20.7" scale="2 2 2" rotation="0 99.78 0"></a-entity>
-    <a-entity obj-model="obj:assets/bookshelf.obj; mtl:assets/bookshelf.mtl" position="18.81 4.5 -2.27" scale="2 2 2" rotation="0 99.78 0"></a-entity>
+    <a-entity obj-model="obj:assets/bookshelf.obj;mtl:assets/bookshelf.mtl" position="18.81 4.5 7.18" scale="2 2 2" rotation="0 99.78 0"></a-entity>
+    <a-entity obj-model="obj:assets/bookshelf.obj;mtl:assets/bookshelf.mtl" position="18.81 4.5 -11.6" scale="2 2 2" rotation="0 99.78 0"></a-entity>
+    <a-entity obj-model="obj:assets/bookshelf.obj;mtl:assets/bookshelf.mtl" position="18.81 4.5 -2.27" scale="2 2 2" rotation="0 99.78 0"></a-entity>
 
 
 
@@ -71,233 +121,237 @@
     </a-box>
 
     <!--test sound-->
-    <a-box material="opacity:0;transparent:true;color:tomato" depth="4" height="4" width="4" sound="src:assets/horned_owl.wav;on:click" class="intersectable" position="5 1.5 6" geometry=""></a-box>
+    <a-box material="opacity:0;transparent:true;color:tomato" depth="4" height="4" width="4" sound="on:click;src:assets/horned_owl.wav" class="intersectable" position="5 1.5 6" geometry=""></a-box>
 
 
     <!-- Scott's StarDestroyer -->
-    <a-obj-model src="assets/StarDestroyer.obj" position="-17.5 1.65 27" scale=".6 .6 .6" rotation="0 0 0" class="intersectable" material="src: #star" obj-model=""></a-obj-model>
+    <a-obj-model src="assets/StarDestroyer.obj" position="-17.5 1.65 27" scale="0.6 0.6 0.6" class="intersectable" material="src:#star" obj-model=""></a-obj-model>
 
     <!--Shelf-->
     <a-box src="#wallTexture" color="tomato" height=".2" width="20" depth="5" position="-12.5 1.5 28" material="" geometry=""></a-box>
 
 
     <!--Sofa-->
-    <a-obj-model src="assets/Canape.obj"  position="20 0 17" rotation="0 270 0" class="intersectable" material=" src: #Sofa" obj-model="" scale="4.5 4.5 4.5" id="Sofa"></a-obj-model>
+    <a-obj-model src="assets/Canape.obj" position="20 0 17" rotation="0 270 0" class="intersectable" material="src:#Sofa" obj-model="" scale="4.5 4.5 4.5" id="Sofa"></a-obj-model>
 
     <!--HDTV-->
-    <a-entity obj-model="obj:assets/HDTV.obj;mtl:assets/HDTV.mtl" rotation="0 180 0" position="-192 0 -135" scale="0.5 0.5 0.5"></a-entity>
+    <a-entity obj-model="mtl:assets/HDTV.mtl;obj:assets/HDTV.obj" rotation="0 180 0" position="-192 0 -135" scale="0.5 0.5 0.5"></a-entity>
 
     <!-- walls-->
     <a-box src="#wallTexture" color="tomato" height="10" width="40" depth="1" position="0 5 -30" material="" geometry=""></a-box>
-    <a-box src="#wallTexture" color="tomato" height="10" width="60" depth="1" position="20 5 0" rotation="0 90 0" material="" geometry=""></a-box>
+    <a-box src="#wallTexture" color="tomato" height="10" width="60" depth="1" position="20 5 8" rotation="0 90 0" material="" geometry=""></a-box>
+    <a-box src="#wallTexture" color="tomato" height="10" width="60" depth="1" position="20 2.805 -50.42" rotation="0 90 0" geometry="height:4;width:10" scale="4.797 1.917 1"></a-box>
+    <a-box src="#wallTexture" color="tomato" height="10" width="60" depth="1" position="20 9.45 -45.9" rotation="0 90 0" geometry="height:4;width:10" scale="4.797 1.493 1"></a-box>
     <a-box src="#wallTexture" color="tomato" height="10" width="60" depth="1" position="-20 5 0" rotation="0 90 0" material="" geometry=""></a-box>
     <a-box src="#wallTexture" color="tomato" height="10" width="40" depth="1" position="0 5 30" material="" geometry=""></a-box>
 
     <!-- ceiling-->
-    <a-box src="#wallTexture" color="tomato" height="1" width="40" depth="60" position="0 10 0" material="" geometry=""></a-box>
+    <a-box src="#wallTexture" color="tomato" height="1" width="40" depth="60" position="0 10 0" material="" geometry="" visible="true"></a-box>
 
     <!--floor-->
     <a-plane src="#groundTexture" rotation="-90.01166961505233 0 0" width="40" height="60" repeat="10 10" material="" geometry=""></a-plane>
 
-    <!--like button-->
-    <a-box color="blue" position="0 3 -29.458" height=".5" width=".5" class="intersectable" material="" geometry="">
-        <a-animation begin="click" attribute="position" from="0 3 -14.5" to="0 3 -15" dur="1000"></a-animation>
-    </a-box>
-
 
     <!-- lights and ceiling fans-->
 
-    <a-light position="9 7 22" rotation="-90 0 0" light="penumbra:0.75;intensity:0.5;distance:10;decay:0;angle:75;type:ambient"></a-light>
+    <a-light position="9 7 22" rotation="-90 0 0" light="angle:75;decay:0;distance:10;intensity:0.5;penumbra:0.75;type:ambient"></a-light>
 
-    <a-light position="-20 10 -30" light="angle:0;intensity:0.25;distance:10;decay:0"></a-light>
+    <a-light position="-20 10 -30" light="angle:0;decay:0;distance:10;intensity:0.25"></a-light>
 
-    <a-light position="-17.2 7.35 26.98" rotation="-90 180 180" light="angle:21; decay:0.1; distance:7; type:spot"></a-light>
+    <a-light position="-17.2 7.35 26.98" rotation="-90 180 180" light="angle:21;decay:0.1;distance:7;type:spot"></a-light>
     <a-light position="-11.362 7.358 26.989" rotation="-90 180 180" light="angle:21;decay:0.1;distance:7;type:spot"></a-light>
     <a-light position="-14.313 7.358 26.989" rotation="-90 180 180" light="angle:21;decay:0.1;distance:7;type:spot"></a-light>
     <a-light position="-8.1 7.358 26.989" rotation="-90 180 180" light="angle:21;decay:0.1;distance:7;type:spot"></a-light>
     <a-light position="-4.759 7.358 26.989" rotation="-90 180 180" light="angle:21;decay:0.1;distance:7;type:spot"></a-light>
 
 
-    <a-entity obj-model="obj:assets/540 Ceiling Fan.obj;mtl:assets/540 Ceiling Fan.mtl" position="9 7 22" rotation="0 6.063334770498821e-38 0" scale="0.01 0.01 0.01">
+    <a-entity obj-model="mtl:assets/540 Ceiling Fan.mtl;obj:assets/540 Ceiling Fan.obj" position="9 7 22" rotation="0 3.377872844579872 0" scale="0.01 0.01 0.01">
         <a-animation attribute="rotation" dur="5000" to="0 360 0" repeat="indefinite"></a-animation>
     </a-entity>
 
+
+
     <!--Fireplace-->
-    <a-entity obj-model="obj:assets/Fireplace.obj;mtl:assets/Fireplace.mtl" position="28.75 0 20.5" scale="0.00027 0.00027 0.00027"></a-entity>
+    <a-entity obj-model="mtl:assets/Fireplace.mtl;obj:assets/Fireplace.obj" position="28.75 0 20.5" scale="0.00027 0.00027 0.00027"></a-entity>
+
+    <!--door-->
+    <a-entity obj-model="obj:assets/Door.obj;mtl:assets/Door.mtl" position="20.158 3.563 -24.67" scale="5 6 5" rotation="0 90 0"></a-entity>
+
+    <!--Bar-->
+    <a-entity obj-model="obj:assets/bar.obj;mtl:assets/bar.mtl" position="-16.3 2.4 0" scale="1.75 1.75 1.75"></a-entity>
 
     <!--fire and flame light-->
-    <a-light position="18.633 1.189 21.648" light="intensity:0.09;groundColor:#eff411;color:#d12810;distance:5;decay:0.5;angle:75;type:ambient"></a-light>
-    <a-light position="18.633 1.189 20.317" light="intensity:0.03;color:#eaf32c;groundColor:#eff411;distance:5;decay:0.5;angle:75;type:ambient"></a-light>
-    <a-light position="18.633 1.189 23.338" light="intensity:0.075;color:#eead17;groundColor:#eff411;distance:5;decay:0.5;angle:75;type:ambient"></a-light>
+    <a-light position="18.633 1.189 21.648" light="angle:75;color:#d12810;groundColor:#eff411;decay:0.5;distance:5;intensity:0.09;type:ambient"></a-light>
+    <a-light position="18.633 1.189 20.317" light="angle:75;color:#eaf32c;groundColor:#eff411;decay:0.5;distance:5;intensity:0.03;type:ambient"></a-light>
+    <a-light position="18.633 1.189 23.338" light="angle:75;color:#eead17;groundColor:#eff411;decay:0.5;distance:5;intensity:0.075;type:ambient"></a-light>
 
-    <a-entity geometry="primitive: box; height = 1" position="19 -.3 23.5" rotation="0 0 0" material="color:#222">
+    <a-entity geometry="" position="19 -0.3 23.5" material="color:#222">
 
-        <a-entity geometry="primitive: plane; height: 1; width: 1" position="0 0.9 0" rotation="0 0 0" material="shader: flat; side: double; transparent: true; src: url(images/fire.png)">
+        <a-entity geometry="primitive:plane" position="0 0.9128116666670475 0" material="shader:flat;side:double;transparent:true;src:images/fire.png">
             <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="450"></a-animation>
         </a-entity>
 
-        <a-entity geometry="primitive: plane; height: 1; width: 1" position="0 0.9 0" rotation="0 90 0" material="shader: flat; side: double; transparent: true; src: url(images/fire.png)">
+        <a-entity geometry="primitive:plane" position="0 0.928370000000298 0" rotation="0 90 0" material="shader:flat;side:double;transparent:true;src:images/fire.png">
             <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="500"></a-animation>
         </a-entity>
 
     </a-entity>
-    <a-entity geometry="primitive: box; height = 1" position="19 -.3 23" rotation="0 0 0" material="color:#222">
+    <a-entity geometry="" position="19 -0.3 23" material="color:#222">
 
-        <a-entity geometry="primitive: plane; height: 1; width: 1" position="0 0.9 0" rotation="0 0 0" material="shader: flat; side: double; transparent: true; src: url(images/fire.png)">
+        <a-entity geometry="primitive:plane" position="0 0.9128116666670475 0" material="shader:flat;side:double;transparent:true;src:images/fire.png">
             <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="450"></a-animation>
         </a-entity>
 
-        <a-entity geometry="primitive: plane; height: 1; width: 1" position="0 0.9 0" rotation="0 90 0" material="shader: flat; side: double; transparent: true; src: url(images/fire.png)">
+        <a-entity geometry="primitive:plane" position="0 0.928370000000298 0" rotation="0 90 0" material="shader:flat;side:double;transparent:true;src:images/fire.png">
             <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="500"></a-animation>
         </a-entity>
 
     </a-entity>
-    <a-entity geometry="primitive: box; height = 1" position="19 -.3 22.5" rotation="0 0 0" material="color:#222">
+    <a-entity geometry="" position="19 -0.3 22.5" material="color:#222">
 
-        <a-entity geometry="primitive: plane; height: 1; width: 1" position="0 0.9 0" rotation="0 0 0" material="shader: flat; side: double; transparent: true; src: url(images/fire.png)">
+        <a-entity geometry="primitive:plane" position="0 0.9128116666670475 0" material="shader:flat;side:double;transparent:true;src:images/fire.png">
             <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="450"></a-animation>
         </a-entity>
 
-        <a-entity geometry="primitive: plane; height: 1; width: 1" position="0 0.9 0" rotation="0 90 0" material="shader: flat; side: double; transparent: true; src: url(images/fire.png)">
+        <a-entity geometry="primitive:plane" position="0 0.928370000000298 0" rotation="0 90 0" material="shader:flat;side:double;transparent:true;src:images/fire.png">
             <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="500"></a-animation>
         </a-entity>
 
     </a-entity>
-    <a-entity geometry="primitive: box; height = 1" position="19 -.3 22" rotation="0 0 0" material="color:#222">
+    <a-entity geometry="" position="19 -0.3 22" material="color:#222">
 
-        <a-entity geometry="primitive: plane; height: 1; width: 1" position="0 0.9 0" rotation="0 0 0" material="shader: flat; side: double; transparent: true; src: url(images/fire.png)">
+        <a-entity geometry="primitive:plane" position="0 0.9128116666670475 0" material="shader:flat;side:double;transparent:true;src:images/fire.png">
             <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="450"></a-animation>
         </a-entity>
 
-        <a-entity geometry="primitive: plane; height: 1; width: 1" position="0 0.9 0" rotation="0 90 0" material="shader: flat; side: double; transparent: true; src: url(images/fire.png)">
+        <a-entity geometry="primitive:plane" position="0 0.928370000000298 0" rotation="0 90 0" material="shader:flat;side:double;transparent:true;src:images/fire.png">
             <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="500"></a-animation>
         </a-entity>
 
     </a-entity>
-    <a-entity geometry="primitive: box; height = 1" position="19 -.3 21.5" rotation="0 0 0" material="color:#222">
+    <a-entity geometry="" position="19 -0.3 21.5" material="color:#222">
 
-        <a-entity geometry="primitive: plane; height: 1; width: 1" position="0 0.9 0" rotation="0 0 0" material="shader: flat; side: double; transparent: true; src: url(images/fire.png)">
+        <a-entity geometry="primitive:plane" position="0 0.9128116666670475 0" material="shader:flat;side:double;transparent:true;src:images/fire.png">
             <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="450"></a-animation>
         </a-entity>
 
-        <a-entity geometry="primitive: plane; height: 1; width: 1" position="0 0.9 0" rotation="0 90 0" material="shader: flat; side: double; transparent: true; src: url(images/fire.png)">
+        <a-entity geometry="primitive:plane" position="0 0.928370000000298 0" rotation="0 90 0" material="shader:flat;side:double;transparent:true;src:images/fire.png">
             <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="500"></a-animation>
         </a-entity>
 
     </a-entity>
-    <a-entity geometry="primitive: box; height = 1" position="19 -.3 21" rotation="0 0 0" material="color:#222">
+    <a-entity geometry="" position="19 -0.3 21" material="color:#222">
 
-        <a-entity geometry="primitive: plane; height: 1; width: 1" position="0 0.9 0" rotation="0 0 0" material="shader: flat; side: double; transparent: true; src: url(images/fire.png)">
+        <a-entity geometry="primitive:plane" position="0 0.9128116666670475 0" material="shader:flat;side:double;transparent:true;src:images/fire.png">
             <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="450"></a-animation>
         </a-entity>
 
-        <a-entity geometry="primitive: plane; height: 1; width: 1" position="0 0.9 0" rotation="0 90 0" material="shader: flat; side: double; transparent: true; src: url(images/fire.png)">
-            <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="500"></a-animation>
-        </a-entity>
-
-    </a-entity>
-
-    <a-entity geometry="primitive: box; height = 1" position="19 .2 23.25" rotation="0 0 0" material="color:#222; opacity:0" >
-
-        <a-entity geometry="primitive: plane; height: 1; width: 1" position="0 0.9 0" rotation="0 0 0" material="shader: flat; side: double; transparent: true; src: url(images/fire.png)">
-            <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="450"></a-animation>
-        </a-entity>
-
-        <a-entity geometry="primitive: plane; height: 1; width: 1" position="0 0.9 0" rotation="0 90 0" material="shader: flat; side: double; transparent: true; src: url(images/fire.png)">
-            <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="500"></a-animation>
-        </a-entity>
-
-    </a-entity>
-    <a-entity geometry="primitive: box; height = 1" position="19 .2 22.75" rotation="0 0 0" material="color:#222; opacity:0">
-
-        <a-entity geometry="primitive: plane; height: 1; width: 1" position="0 0.9 0" rotation="0 0 0" material="shader: flat; side: double; transparent: true; src: url(images/fire.png)">
-            <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="450"></a-animation>
-        </a-entity>
-
-        <a-entity geometry="primitive: plane; height: 1; width: 1" position="0 0.9 0" rotation="0 90 0" material="shader: flat; side: double; transparent: true; src: url(images/fire.png)">
-            <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="500"></a-animation>
-        </a-entity>
-
-    </a-entity>
-    <a-entity geometry="primitive: box; height = 1" position="19 .2 22.25" rotation="0 0 0" material="color:#222; opacity:0">
-
-        <a-entity geometry="primitive: plane; height: 1; width: 1" position="0 0.9 0" rotation="0 0 0" material="shader: flat; side: double; transparent: true; src: url(images/fire.png)">
-            <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="450"></a-animation>
-        </a-entity>
-
-        <a-entity geometry="primitive: plane; height: 1; width: 1" position="0 0.9 0" rotation="0 90 0" material="shader: flat; side: double; transparent: true; src: url(images/fire.png)">
-            <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="500"></a-animation>
-        </a-entity>
-
-    </a-entity>
-    <a-entity geometry="primitive: box; height = 1" position="19 .2 21.75" rotation="0 0 0" material="color:#222; opacity:0">
-
-        <a-entity geometry="primitive: plane; height: 1; width: 1" position="0 0.9 0" rotation="0 0 0" material="shader: flat; side: double; transparent: true; src: url(images/fire.png)">
-            <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="450"></a-animation>
-        </a-entity>
-
-        <a-entity geometry="primitive: plane; height: 1; width: 1" position="0 0.9 0" rotation="0 90 0" material="shader: flat; side: double; transparent: true; src: url(images/fire.png)">
-            <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="500"></a-animation>
-        </a-entity>
-
-    </a-entity>
-    <a-entity geometry="primitive: box; height = 1" position="19 .2 21.25" rotation="0 0 0" material="color:#222; opacity:0">
-
-        <a-entity geometry="primitive: plane; height: 1; width: 1" position="0 0.9 0" rotation="0 0 0" material="shader: flat; side: double; transparent: true; src: url(images/fire.png)">
-            <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="450"></a-animation>
-        </a-entity>
-
-        <a-entity geometry="primitive: plane; height: 1; width: 1" position="0 0.9 0" rotation="0 90 0" material="shader: flat; side: double; transparent: true; src: url(images/fire.png)">
+        <a-entity geometry="primitive:plane" position="0 0.928370000000298 0" rotation="0 90 0" material="shader:flat;side:double;transparent:true;src:images/fire.png">
             <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="500"></a-animation>
         </a-entity>
 
     </a-entity>
 
-    <a-entity geometry="primitive: box; height = 1" position="19 .7 23" rotation="0 0 0" material="color:#222; opacity:0" >
+    <a-entity geometry="" position="19 0.2 23.25" material="color:#222;opacity:0">
 
-        <a-entity geometry="primitive: plane; height: 1; width: 1" position="0 0.9 0" rotation="0 0 0" material="shader: flat; side: double; transparent: true; src: url(images/fire.png)">
+        <a-entity geometry="primitive:plane" position="0 0.9128116666670475 0" material="shader:flat;side:double;transparent:true;src:images/fire.png">
             <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="450"></a-animation>
         </a-entity>
 
-        <a-entity geometry="primitive: plane; height: 1; width: 1" position="0 0.9 0" rotation="0 90 0" material="shader: flat; side: double; transparent: true; src: url(images/fire.png)">
+        <a-entity geometry="primitive:plane" position="0 0.928370000000298 0" rotation="0 90 0" material="shader:flat;side:double;transparent:true;src:images/fire.png">
             <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="500"></a-animation>
         </a-entity>
 
     </a-entity>
-    <a-entity geometry="primitive: box; height = 1" position="19 .5 22.5" rotation="0 0 0" material="color:#222; opacity:0">
+    <a-entity geometry="" position="19 0.2 22.75" material="color:#222;opacity:0">
 
-        <a-entity geometry="primitive: plane; height: 1; width: 1" position="0 0.9 0" rotation="0 0 0" material="shader: flat; side: double; transparent: true; src: url(images/fire.png)">
+        <a-entity geometry="primitive:plane" position="0 0.9128116666670475 0" material="shader:flat;side:double;transparent:true;src:images/fire.png">
             <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="450"></a-animation>
         </a-entity>
 
-        <a-entity geometry="primitive: plane; height: 1; width: 1" position="0 0.9 0" rotation="0 90 0" material="shader: flat; side: double; transparent: true; src: url(images/fire.png)">
+        <a-entity geometry="primitive:plane" position="0 0.928370000000298 0" rotation="0 90 0" material="shader:flat;side:double;transparent:true;src:images/fire.png">
             <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="500"></a-animation>
         </a-entity>
 
     </a-entity>
-    <a-entity geometry="primitive: box; height = 1" position="19 .7 22" rotation="0 0 0" material="color:#222; opacity:0">
+    <a-entity geometry="" position="19 0.2 22.25" material="color:#222;opacity:0">
 
-        <a-entity geometry="primitive: plane; height: 1; width: 1" position="0 0.9 0" rotation="0 0 0" material="shader: flat; side: double; transparent: true; src: url(images/fire.png)">
+        <a-entity geometry="primitive:plane" position="0 0.9128116666670475 0" material="shader:flat;side:double;transparent:true;src:images/fire.png">
             <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="450"></a-animation>
         </a-entity>
 
-        <a-entity geometry="primitive: plane; height: 1; width: 1" position="0 0.9 0" rotation="0 90 0" material="shader: flat; side: double; transparent: true; src: url(images/fire.png)">
+        <a-entity geometry="primitive:plane" position="0 0.928370000000298 0" rotation="0 90 0" material="shader:flat;side:double;transparent:true;src:images/fire.png">
             <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="500"></a-animation>
         </a-entity>
 
     </a-entity>
-    <a-entity geometry="primitive: box; height = 1" position="19 .5 21.5" rotation="0 0 0" material="color:#222; opacity:0">
+    <a-entity geometry="" position="19 0.2 21.75" material="color:#222;opacity:0">
 
-        <a-entity geometry="primitive: plane; height: 1; width: 1" position="0 0.9 0" rotation="0 0 0" material="shader: flat; side: double; transparent: true; src: url(images/fire.png)">
+        <a-entity geometry="primitive:plane" position="0 0.9128116666670475 0" material="shader:flat;side:double;transparent:true;src:images/fire.png">
             <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="450"></a-animation>
         </a-entity>
 
-        <a-entity geometry="primitive: plane; height: 1; width: 1" position="0 0.9 0" rotation="0 90 0" material="shader: flat; side: double; transparent: true; src: url(images/fire.png)">
+        <a-entity geometry="primitive:plane" position="0 0.928370000000298 0" rotation="0 90 0" material="shader:flat;side:double;transparent:true;src:images/fire.png">
+            <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="500"></a-animation>
+        </a-entity>
+
+    </a-entity>
+    <a-entity geometry="" position="19 0.2 21.25" material="color:#222;opacity:0">
+
+        <a-entity geometry="primitive:plane" position="0 0.9128116666670475 0" material="shader:flat;side:double;transparent:true;src:images/fire.png">
+            <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="450"></a-animation>
+        </a-entity>
+
+        <a-entity geometry="primitive:plane" position="0 0.928370000000298 0" rotation="0 90 0" material="shader:flat;side:double;transparent:true;src:images/fire.png">
             <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="500"></a-animation>
         </a-entity>
 
     </a-entity>
 
+    <a-entity geometry="" position="19 0.7 23" material="color:#222;opacity:0">
+
+        <a-entity geometry="primitive:plane" position="0 0.9128116666670475 0" material="shader:flat;side:double;transparent:true;src:images/fire.png">
+            <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="450"></a-animation>
+        </a-entity>
+
+        <a-entity geometry="primitive:plane" position="0 0.928370000000298 0" rotation="0 90 0" material="shader:flat;side:double;transparent:true;src:images/fire.png">
+            <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="500"></a-animation>
+        </a-entity>
+
+    </a-entity>
+    <a-entity geometry="" position="19 0.5 22.5" material="color:#222;opacity:0">
+
+        <a-entity geometry="primitive:plane" position="0 0.9128116666670475 0" material="shader:flat;side:double;transparent:true;src:images/fire.png">
+            <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="450"></a-animation>
+        </a-entity>
+
+        <a-entity geometry="primitive:plane" position="0 0.928370000000298 0" rotation="0 90 0" material="shader:flat;side:double;transparent:true;src:images/fire.png">
+            <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="500"></a-animation>
+        </a-entity>
+
+    </a-entity>
+    <a-entity geometry="" position="19 0.7 22" material="color:#222;opacity:0">
+
+        <a-entity geometry="primitive:plane" position="0 0.9128116666670475 0" material="shader:flat;side:double;transparent:true;src:images/fire.png">
+            <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="450"></a-animation>
+        </a-entity>
+
+        <a-entity geometry="primitive:plane" position="0 0.928370000000298 0" rotation="0 90 0" material="shader:flat;side:double;transparent:true;src:images/fire.png">
+            <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="500"></a-animation>
+        </a-entity>
+
+    </a-entity>
+    <a-entity geometry="" position="19 0.5 21.5" material="color:#222;opacity:0">
+
+        <a-entity geometry="primitive:plane" position="0 0.9128116666670475 0" material="shader:flat;side:double;transparent:true;src:images/fire.png">
+            <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="450"></a-animation>
+        </a-entity>
+
+        <a-entity geometry="primitive:plane" position="0 0.928370000000298 0" rotation="0 90 0" material="shader:flat;side:double;transparent:true;src:images/fire.png">
+            <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="500"></a-animation>
+        </a-entity>
+
+    </a-entity>
 </a-scene>
 
 </body>
