@@ -4,6 +4,21 @@ all rights reserved
 
 #Credit
 
+Don Carson: Camping Stuff
+https://poly.google.com/view/3GSiSGRuyfT
+
+Poly by Google: Computer Desk
+https://poly.google.com/view/4U4lI91VbsO
+
+Jonathan Granskog: Box Shelf
+https://poly.google.com/view/3aAw-c_7gkO
+
+Poly by Google: Motorcycle
+https://poly.google.com/view/5_MTCnqfUTr
+
+Poly by Google: Bike
+https://poly.google.com/view/edNZoeH3lVP
+
 Teh LaughingMan: WartHog
 https://poly.google.com/view/8QlCgkp5aVH
 

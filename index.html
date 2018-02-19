@@ -31,21 +31,18 @@
         <img id="skyTexture" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/sechelt.jpg" crossorigin="anonymous">
     </a-assets>
 
-
     <a-sky src="#skyTexture"></a-sky>
 
-
-
-    <a-entity position="0 3 0">
+    <!--
+    <a-entity position="0 3.5 0">
         <a-camera universal-controls>
             <a-entity raycaster="far: 150; objects: .intersectable" cursor geometry="primitive: ring; radiusOuter: 0.015;
                                radiusInner: 0.01; segmentsTheta: 32" material="color: #283644; shader: flat" position="0 0 -0.75"></a-entity>
         </a-camera>
     </a-entity>
-
-    <!--
-        <a-camera><a-cursor></a-cursor></a-camera>
     -->
+
+    <a-camera><a-cursor></a-cursor></a-camera>
 
     <!--ROOMMATE of the Month pictures-->
     <a-entity geometry="primitive:plane;height:2.2;width:1.8" position="-18 6 -28.98" material="shader:flat;transparent:true;src:images/Cat-Swag.png"></a-entity>
@@ -240,32 +237,45 @@
 
     <!--Ceiling Fan-->
     <a-entity obj-model="mtl:assets/540 Ceiling Fan.mtl;obj:assets/540 Ceiling Fan.obj" position="9 7 22" rotation="0 46.32879561357526 0" scale="0.01 0.01 0.01">
-        <a-animation attribute="rotation" dur="5000" to="0 360 0" repeat="indefinite"></a-animation>
+        <a-animation attribute="rotation" dur="5000" to="0 720 0" repeat="indefinite"></a-animation>
     </a-entity>
 
     <!--Fireplace-->
     <a-entity obj-model="mtl:assets/Fireplace.mtl;obj:assets/Fireplace.obj" position="28.75 0 20.5" scale="0.00027 0.00027 0.00027"></a-entity>
 
+    <!--bike-->
+    <a-entity obj-model="mtl:assets/Bike.mtl;obj:assets/Bike.obj" position="-52.371 5.747 -3.675" scale="0.005 0.005 0.005" rotation="0 90.01166961505233 0"></a-entity>
+
     <!--Garage-->
     <a-entity obj-model="mtl:assets/Garage.mtl;obj:assets/Garage.obj" position="-46.217 0 29.957" scale="5.592 5.592 11.076"></a-entity>
 
+    <!--Warthog-->
+    <a-entity obj-model="mtl:assets/WartHog.mtl;obj:assets/Warthog.obj" position="-53.072 -3.759 15.895" rotation="-90.01166961505233 180 0" scale="0.367 0.367 0.367"></a-entity>
 
-    <!--Warthog
-    <a-entity obj-model="mtl:assets/WartHog.mtl;obj:assets/Warthog.obj" position="0 0 0"></a-entity>
--->
+    <!--Motorcycle-->
+    <a-entity obj-model="mtl:assets/Motorcycle.mtl;obj:assets/Motorcycle.obj" position="-42.426 0 20.623" rotation="0 -90.01166961505233 0" scale="0.745 0.745 0.745"></a-entity>
 
     <!--Washer-->
     <a-entity obj-model="mtl:assets/Washer.mtl;obj:assets/Washer.obj" position="-29.676 2.907 -3.272" scale="22.312 22.312 22.312" rotation="-1.6615776058793874 61.93673765364199 0.8594366926962348"></a-entity>
 
     <!--Wizard-->
-    <a-entity obj-model="mtl:assets/Wizard.mtl;obj:assets/Wizard.obj" position="24.258 4.293 -42.715" scale="3.217 3.758 5.393"></a-entity>
+    <a-entity obj-model="mtl:assets/Wizard.mtl;obj:assets/Wizard.obj" position="23.923 2.93 -39.902" scale="2.665 3.758 3.589"></a-entity>
 
     <!--bookcase-->
-    <a-entity obj-model="mtl:assets/Bookcase.mtl;obj:assets/Bookcase.obj" position="57.068 3.227 -48.194" scale="8.265 6.648 6.648" rotation="0 90 0"></a-entity>
+    <a-entity obj-model="mtl:assets/Bookcase.mtl;obj:assets/Bookcase.obj" position="57.068 2.312 -45.535" scale="6.066 4.493 6.648" rotation="0 90 0"></a-entity>
+
+    <!--Desk-->
+    <a-entity obj-model="mtl:assets/Wall_Desk_Speakers_1341.mtl;obj:assets/Wall_Desk_Speakers_1341.obj" position="27.855 0.136 -50.567" scale="0.165 0.165 0.165" rotation="0 90 0"></a-entity>
+
+    <!--Camping Stuff-->
+    <a-entity obj-model="mtl:assets/Camping stuff.mtl;obj:assets/Camping stuff.obj" position="-36.527 2.791 0.9" scale="6.648 6.648 6.648"></a-entity>
+
+    <!--shelf-->
+    <a-entity obj-model="mtl:assets/Shelf.mtl;obj:assets/Shelf.obj" position="0 0 0" scale="1 1 1"></a-entity>
 
     <!--Sofa-->
-    <a-obj-model src="assets/Canape.obj" position="16.718 0 15.921" rotation="0 270 0" material="src:#Sofa"  scale="4.5 4.5 4.5" id="Sofa"></a-obj-model>
-
+    <a-entity obj-model="mtl:assets/Shelf.mtl;obj:assets/Shelf.obj" position="-30.986 0.528 -6.279" scale="0 0 0"></a-entity>
+    <a-entity obj-model="mtl:assets/Shelf.mtl;obj:assets/Shelf.obj" position="-21.784 0.528 -2.472" scale="0.00001 0.00001 0.00001" rotation="0 -90 0"></a-entity>
     <!--closet-->
     <a-entity obj-model="obj:assets/wardrobe_OBJ.obj" material="src:#wallTexture" position="27.387 4.929 -13.934" scale="0.091 0.05 0.1" rotation="0 180.02333923010465 0"></a-entity>
 
@@ -276,7 +286,10 @@
     <a-entity obj-model="mtl:assets/Door.mtl;obj:assets/Door.obj" position="35.411 3.563 -23.132" scale="5 6 5" rotation="0 90 0"></a-entity>
 
     <!--Bar-->
-    <a-entity obj-model="mtl:assets/bar.mtl;obj:assets/bar.obj" position="-16.3 2.4 0.919" scale="1.75 1.75 1.75"></a-entity>
+    <a-entity obj-model="mtl:assets/bar.mtl;obj:assets/bar.obj" position="-16.044 2.756 1.215" scale="1.987 1.987 1.987"></a-entity>
+
+    <!--boxshelfs-->
+    <a-entity obj-model="mtl:assets/ShelfBox.mtl;obj:assets/ShelfBox.obj" rotation="0 -90.01166961505233 0" position="-31.526 2.791 26.549" scale="3.673 3.673 3.673"></a-entity>
 
     <!--kitchen-->
     <a-entity obj-model="mtl:assets/Kitchen.mtl;obj:assets/Kitchen.obj" position="-38.691 3.816 -13.088" rotation="0 -90.012 0" scale="11.993 11.993 11.993"></a-entity>
