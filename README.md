@@ -4,6 +4,9 @@ all rights reserved
 
 #Credit
 
+Like picture:
+https://www.shareicon.net/approve-thumb-like-872775
+
 Roommate of the Month Banner:
 http://www.picturetopeople.org/p2p/text_effects_generator.p2p/3d_steel_text_effect
 
