@@ -19,14 +19,7 @@
         <img id="Sofa" src="assets/sofa.jpg">
         <img id="star" src="assets/star.jpg">
 
-        <a-asset-item id="ceiling fan-obj" src="assets/540 Ceiling Fan.obj"></a-asset-item>
-        <a-asset-item id="ceiling fan-mtl" src="assets/540 Ceiling Fan.mtl"></a-asset-item>
-        <a-asset-item id="Fireplace-obj" src="assets/Fireplace.obj"></a-asset-item>
-        <a-asset-item id="Fireplace-mtl" src="assets/Fireplace.mtl"></a-asset-item>
-        <a-asset-item id="bookshelf-obj" src="assets/bookshelf.obj"></a-asset-item>
-        <a-asset-item id="bookshelf-mtl" src="assets/bookshelf.mtl"></a-asset-item>
-        <a-asset-item id="bar-obj" src="assets/bar.obj"></a-asset-item>
-        <a-asset-item id="bar-mtl" src="assets/bar.mtl"></a-asset-item>
+
         <img id="boxTexture" src="https://i.imgur.com/mYmmbrp.jpg" crossorigin="anonymous">
         <img id="skyTexture" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/sechelt.jpg" crossorigin="anonymous">
     </a-assets>
@@ -43,7 +36,7 @@
     -->
 
     <a-camera><a-cursor></a-cursor></a-camera>
-
+    <a-entity geometry="width:18;height:2;primitive:plane" position="-1.598 8.279 -29.326" material="shader:flat;transparent:true;src:images/rotm.png"></a-entity>
     <!--ROOMMATE of the Month pictures-->
     <a-entity geometry="primitive:plane;height:2.2;width:1.8" position="-18 6 -28.98" material="shader:flat;transparent:true;src:images/Cat-Swag.png"></a-entity>
     <a-entity geometry="primitive:plane;height:2.2;width:1.8" position="-15 6 -28.98" material="shader:flat;transparent:true;src:images/Yawn-Cat.png"></a-entity>
@@ -159,33 +152,33 @@
     </a-box>
 
     <!--bookshelf-->
-    <a-entity obj-model="obj:assets/bookshelf.obj;mtl:assets/bookshelf.mtl" position="18.81 4.5 7.18" scale="2 2 2" rotation="0 99.78 0"></a-entity>
+    <a-entity id="Living Room Bookshelf" obj-model="obj:assets/bookshelf.obj;mtl:assets/bookshelf.mtl" position="18.81 4.5 7.18" scale="2 2 2" rotation="0 99.78 0"></a-entity>
     <a-entity obj-model="obj:assets/bookshelf.obj;mtl:assets/bookshelf.mtl" position="18.81 4.5 -11.6" scale="2 2 2" rotation="0 99.78 0"></a-entity>
     <a-entity obj-model="obj:assets/bookshelf.obj;mtl:assets/bookshelf.mtl" position="18.81 4.5 -2.27" scale="2 2 2" rotation="0 99.78 0"></a-entity>
 
     <!--Shelf-->
-    <a-box src="#shelfTexture" color="tomato" height=".2" width="20" depth="5" position="-12.5 1.5 28" material="" geometry=""></a-box>
+    <a-box id="Toy Shelf" src="#shelfTexture" color="tomato" height=".2" width="20" depth="5" position="-12.5 1.5 28" material="" geometry=""></a-box>
     <a-box src="#shelfTexture" color="tomato" height=".2" width="20" depth="5" position="-12.5 5 28"></a-box>
 
     <!--R2D2-->
-    <a-entity obj-model="mtl:assets/R2D2.mtl;obj:assets/R2D2.obj" position="-11.438 2.199 26.992" rotation="0 68.04527863361662 0" scale="1.476 1.476 1.476">
+    <a-entity id="R2" obj-model="mtl:assets/R2D2.mtl;obj:assets/R2D2.obj" position="-11.438 2.199 26.992" rotation="0 68.04527863361662 0" scale="1.476 1.476 1.476">
         <a-animation attribute="rotation" dur="5000" to="0 360 0" repeat="indefinite"></a-animation>
     </a-entity>
 
     <!-- Scott's StarDestroyer -->
-    <a-obj-model src="assets/StarDestroyer.obj" position="-17.5 1.65 27.395" scale="0.6 0.6 0.6" class="intersectable" material="src:#star" obj-model=""></a-obj-model>
+    <a-obj-model id="StarDestroyer" src="assets/StarDestroyer.obj" position="-17.5 1.65 27.395" scale="0.6 0.6 0.6" class="intersectable" material="src:#star" obj-model=""></a-obj-model>
 
     <!--Sofa-->
-    <a-obj-model src="assets/Canape.obj" position="16.718 0 15.921" rotation="0 270 0" class="intersectable" material="src:#Sofa" obj-model="" scale="4.5 4.5 4.5" id="Sofa"></a-obj-model>
+    <a-obj-model id="Sofa" src="assets/Canape.obj" position="16.718 0 15.921" rotation="0 270 0" class="intersectable" material="src:#Sofa" obj-model="" scale="4.5 4.5 4.5" id="Sofa"></a-obj-model>
 
     <!--HDTV-->
-    <a-entity obj-model="mtl:assets/HDTV.mtl;obj:assets/HDTV.obj" rotation="0 180 0" position="-192 0 -135.607" scale="0.5 0.5 0.5"></a-entity>
+    <a-entity id="TV" obj-model="mtl:assets/HDTV.mtl;obj:assets/HDTV.obj" rotation="0 180 0" position="-192 0 -135.607" scale="0.5 0.5 0.5"></a-entity>
 
     <!--Bed -->
-    <a-entity obj-model="mtl:assets/Bed.mtl;obj:assets/Bed.obj" position="55.059 2.71 -31.495" scale="7.604 7.604 7.604" rotation="0 59.47301913457945 0"></a-entity>
+    <a-entity id="Bed" obj-model="mtl:assets/Bed.mtl;obj:assets/Bed.obj" position="55.059 2.71 -31.495" scale="7.604 7.604 7.604" rotation="0 59.47301913457945 0"></a-entity>
 
     <!-- walls-->
-    <a-box src="#wallTexture" color="tomato" height="10" width="60" depth="1" position="-33.607 5 6.55" rotation="0 90 0" scale="0.17 1 1"></a-box>
+    <a-box id="Walls" src="#wallTexture" color="tomato" height="10" width="60" depth="1" position="-33.607 5 6.55" rotation="0 90 0" scale="0.17 1 1"></a-box>
     <a-box src="#wallTexture" color="tomato" height="10" width="60" depth="1" position="-33.607 5 23.888" rotation="0 90 0" scale="0.264 1 1"></a-box>
     <a-box src="#wallTexture" color="tomato" height="10" width="40" depth="1" position="0 5 -30" material="" geometry=""></a-box>
     <a-box src="#brickTexture" color="tomato" height="10" width="40" depth="1" position="-39.92 5 -30" material="" geometry="" repeat="6 3"></a-box>
@@ -206,22 +199,21 @@
     <a-box src="#wallTexture" color="tomato" height="10" width="40" depth="1" position="34.824 5 -10.278" geometry="width:20.5" rotation="0 90 0"></a-box>
 
     <!-- ceiling-->
-    <a-box src="#ceilingTexture" color="grey" height="1" width="40" depth="60" position="0 10 0" material="" geometry=""></a-box>
+    <a-box id="Ceilings" src="#ceilingTexture" color="grey" height="1" width="40" depth="60" position="0 10 0" material="" geometry=""></a-box>
     <a-box src="#ceilingTexture" color="grey" height="1" width="40" depth="60" position="-38.903 10 14.878" geometry="depth:40;height:1.01;width:39.97"></a-box>
     <a-box src="#ceilingTexture" color="grey" height="1" width="40" depth="60" position="39.612 10 -30.379"></a-box>
     <a-box src="#ceilingTexture" color="grey" height="1" width="40" depth="60" position="-39.933 15.566 -15.546" geometry="depth:30" material=""></a-box>
 
     <!--floor-->
-    <a-plane src="#groundTexture" rotation="-90.012 0 0" width="40" height="60" repeat="10 10" material="" geometry=""></a-plane>
+    <a-plane id="Floors" src="#groundTexture" rotation="-90.012 0 0" width="40" height="60" repeat="10 10" material="" geometry=""></a-plane>
     <a-plane src="#bathTexture" rotation="-90.012 0 0" width="40" height="60" repeat="10 10" geometry="height:25;width:25" position="47.094 0.05 -12.678"></a-plane>
     <a-plane src="#groundTexture" rotation="-90.012 0 0" width="40" height="60" repeat="10 10" position="-39.633 0 13.868" material="" geometry="height:39"></a-plane>
     <a-plane src="#groundTexture" rotation="-90.012 0 0" width="40" height="60" repeat="10 10" position="39.548 0 -29.756" material="" geometry=""></a-plane>
     <a-plane src="#garageTexture" rotation="-90.012 90 0" width="40" height="60" repeat="1 1" position="-48.784 .01 13.868" geometry="width:37.83;height:30"></a-plane>
 
     <!-- lights-->
-    <a-light position="9 7 22" rotation="-90 0 0" light="angle:75;decay:0;distance:10;intensity:0.5;penumbra:0.75;type:ambient"></a-light>
-
-    <a-light position="-20 10 -30" light="angle:0;decay:0;distance:10;intensity:0.25"></a-light>
+    <a-light id="Lights" position="9 7 22" rotation="-90 0 0" light="angle:75;decay:0;distance:10;intensity:0.5;penumbra:0.75;type:ambient"></a-light>
+    <a-light position="-23.646 10.485 -0.056" light="distance:10;intensity:0.01;angle:0;decay:0"></a-light>
 
     <a-light position="-17.445 4 27.336" rotation="-90 180 180" light="angle:45;decay:0.1;distance:3.01;type:spot"></a-light>
     <a-light position="-11.438 4 27.142" rotation="-90 180 180" light="angle:26;decay:0.1;distance:3;type:spot"></a-light>
@@ -235,70 +227,83 @@
     <a-light position="-8.1000 7.5 26.989" rotation="-90 180 180" light="angle:21;decay:0.1;distance:3;type:spot"></a-light>
     <a-light position="-4.7590 7.5 27.403" rotation="-90 180 180" light="angle:35;decay:0.1;distance:3;type:spot"></a-light>
 
+    <!--LIGHTBULBS-->
+    <a-entity id="LIGHT-1" obj-model="mtl:assets/LIGHT.mtl;obj:assets/LIGHT.obj" position="-17.47 4.876 27.198" scale="2 2 2" rotation="0 0 180.02333923010465"></a-entity>
+    <a-entity id="LIGHT-2" obj-model="mtl:assets/LIGHT.mtl;obj:assets/LIGHT.obj" position="-14.089 4.876 27.198" scale="2 2 2" rotation="0 0 180.02333923010465"></a-entity>
+    <a-entity id="LIGHT-3" obj-model="mtl:assets/LIGHT.mtl;obj:assets/LIGHT.obj" position="-11.442 4.876 27.198" scale="2 2 2" rotation="0 0 180.02333923010465"></a-entity>
+    <a-entity id="LIGHT-4" obj-model="mtl:assets/LIGHT.mtl;obj:assets/LIGHT.obj" position="-8.154 4.876 27.198" scale="2 2 2" rotation="0 0 180.02333923010465"></a-entity>
+    <a-entity id="LIGHT-5" obj-model="mtl:assets/LIGHT.mtl;obj:assets/LIGHT.obj" position="-4.668 4.876 27.198" scale="2 2 2" rotation="0 0 180.02333923010465"></a-entity>
+    <a-entity id="LIGHT-6" obj-model="mtl:assets/LIGHT.mtl;obj:assets/LIGHT.obj" position="-4.668 9.428 27.198" scale="2 2 2" rotation="0 0 180.02333923010465"></a-entity>
+    <a-entity id="LIGHT-7" obj-model="mtl:assets/LIGHT.mtl;obj:assets/LIGHT.obj" position="-17.493 9.428 27.198" scale="2 2 2" rotation="0 0 180.02333923010465"></a-entity>
+    <a-entity id="LIGHT-8" obj-model="mtl:assets/LIGHT.mtl;obj:assets/LIGHT.obj" position="-14.06 9.428 27.198" scale="2 2 2" rotation="0 0 180.02333923010465"></a-entity>
+    <a-entity id="LIGHT-9" obj-model="mtl:assets/LIGHT.mtl;obj:assets/LIGHT.obj" position="-11.465 9.428 27.198" scale="2 2 2" rotation="0 0 180.02333923010465"></a-entity>
+    <a-entity id="LIGHT10" obj-model="mtl:assets/LIGHT.mtl;obj:assets/LIGHT.obj" position="-8.06 9.428 27.198" scale="2 2 2" rotation="0 0 180.02333923010465"></a-entity>
+
     <!--Ceiling Fan-->
-    <a-entity obj-model="mtl:assets/540 Ceiling Fan.mtl;obj:assets/540 Ceiling Fan.obj" position="9 7 22" rotation="0 46.32879561357526 0" scale="0.01 0.01 0.01">
+    <a-entity id="Ceiling Fan" obj-model="mtl:assets/540 Ceiling Fan.mtl;obj:assets/540 Ceiling Fan.obj" position="9 7 22" rotation="0 46.32879561357526 0" scale="0.01 0.01 0.01">
         <a-animation attribute="rotation" dur="5000" to="0 720 0" repeat="indefinite"></a-animation>
     </a-entity>
 
     <!--Fireplace-->
-    <a-entity obj-model="mtl:assets/Fireplace.mtl;obj:assets/Fireplace.obj" position="28.75 0 20.5" scale="0.00027 0.00027 0.00027"></a-entity>
+    <a-entity id="Fireplace" obj-model="mtl:assets/Fireplace.mtl;obj:assets/Fireplace.obj" position="28.75 0 20.5" scale="0.00027 0.00027 0.00027"></a-entity>
 
     <!--bike-->
-    <a-entity obj-model="mtl:assets/Bike.mtl;obj:assets/Bike.obj" position="-52.371 5.747 -3.675" scale="0.005 0.005 0.005" rotation="0 90.01166961505233 0"></a-entity>
+    <a-entity id="Bike" obj-model="mtl:assets/Bike.mtl;obj:assets/Bike.obj" position="-52.371 5.747 -3.675" scale="0.005 0.005 0.005" rotation="0 90.01166961505233 0"></a-entity>
 
     <!--Garage-->
-    <a-entity obj-model="mtl:assets/Garage.mtl;obj:assets/Garage.obj" position="-46.217 0 29.957" scale="5.592 5.592 11.076"></a-entity>
+    <a-entity id="Garage Door" obj-model="mtl:assets/Garage.mtl;obj:assets/Garage.obj" position="-46.217 0 29.957" scale="5.592 5.592 11.076"></a-entity>
 
     <!--Warthog-->
-    <a-entity obj-model="mtl:assets/WartHog.mtl;obj:assets/Warthog.obj" position="-53.072 -3.759 15.895" rotation="-90.01166961505233 180 0" scale="0.367 0.367 0.367"></a-entity>
+    <a-entity id="Warthog" obj-model="mtl:assets/WartHog.mtl;obj:assets/Warthog.obj" position="-53.072 -3.759 15.895" rotation="-90.01166961505233 180 0" scale="0.367 0.367 0.367"></a-entity>
 
     <!--Motorcycle-->
-    <a-entity obj-model="mtl:assets/Motorcycle.mtl;obj:assets/Motorcycle.obj" position="-42.426 0 20.623" rotation="0 -90.01166961505233 0" scale="0.745 0.745 0.745"></a-entity>
+    <a-entity id="Motorcycle" obj-model="mtl:assets/Motorcycle.mtl;obj:assets/Motorcycle.obj" position="-42.426 0 20.623" rotation="0 -90.01166961505233 0" scale="0.745 0.745 0.745"></a-entity>
 
     <!--Washer-->
-    <a-entity obj-model="mtl:assets/Washer.mtl;obj:assets/Washer.obj" position="-29.676 2.907 -3.272" scale="22.312 22.312 22.312" rotation="-1.6615776058793874 61.93673765364199 0.8594366926962348"></a-entity>
+    <a-entity id="Washer" obj-model="mtl:assets/Washer.mtl;obj:assets/Washer.obj" position="-29.676 2.907 -3.272" scale="22.312 22.312 22.312" rotation="-1.6615776058793874 61.93673765364199 0.8594366926962348"></a-entity>
 
     <!--Wizard-->
-    <a-entity obj-model="mtl:assets/Wizard.mtl;obj:assets/Wizard.obj" position="23.923 2.93 -39.902" scale="2.665 3.758 3.589"></a-entity>
+    <a-entity id="Wizard table" obj-model="mtl:assets/Wizard.mtl;obj:assets/Wizard.obj" position="23.923 2.93 -39.902" scale="2.665 3.758 3.589"></a-entity>
 
     <!--bookcase-->
-    <a-entity obj-model="mtl:assets/Bookcase.mtl;obj:assets/Bookcase.obj" position="57.068 2.312 -45.535" scale="6.066 4.493 6.648" rotation="0 90 0"></a-entity>
+    <a-entity id="Bedroom Book Case" obj-model="mtl:assets/Bookcase.mtl;obj:assets/Bookcase.obj" position="57.068 2.312 -45.535" scale="6.066 4.493 6.648" rotation="0 90 0"></a-entity>
 
     <!--Desk-->
-    <a-entity obj-model="mtl:assets/Wall_Desk_Speakers_1341.mtl;obj:assets/Wall_Desk_Speakers_1341.obj" position="27.855 0.136 -50.567" scale="0.165 0.165 0.165" rotation="0 90 0"></a-entity>
+    <a-entity id="Desk" obj-model="mtl:assets/Wall_Desk_Speakers_1341.mtl;obj:assets/Wall_Desk_Speakers_1341.obj" position="27.855 0.136 -50.567" scale="0.165 0.165 0.165" rotation="0 90 0"></a-entity>
 
     <!--Camping Stuff-->
-    <a-entity obj-model="mtl:assets/Camping stuff.mtl;obj:assets/Camping stuff.obj" position="-36.527 2.791 0.9" scale="6.648 6.648 6.648"></a-entity>
+    <a-entity id="Camping stuff" obj-model="mtl:assets/Camping stuff.mtl;obj:assets/Camping stuff.obj" position="-36.527 2.791 0.9" scale="6.648 6.648 6.648"></a-entity>
 
     <!--shelf-->
-    <a-entity obj-model="mtl:assets/Shelf.mtl;obj:assets/Shelf.obj" position="0 0 0" scale="1 1 1"></a-entity>
-
-    <!--Sofa-->
-    <a-entity obj-model="mtl:assets/Shelf.mtl;obj:assets/Shelf.obj" position="-30.986 0.528 -6.279" scale="0 0 0"></a-entity>
+    <a-entity id="storage shelf" obj-model="mtl:assets/Shelf.mtl;obj:assets/Shelf.obj" position="-30.983 0.528 -6.325" scale="0 0 0"></a-entity>
     <a-entity obj-model="mtl:assets/Shelf.mtl;obj:assets/Shelf.obj" position="-21.784 0.528 -2.472" scale="0.00001 0.00001 0.00001" rotation="0 -90 0"></a-entity>
+
     <!--closet-->
-    <a-entity obj-model="obj:assets/wardrobe_OBJ.obj" material="src:#wallTexture" position="27.387 4.929 -13.934" scale="0.091 0.05 0.1" rotation="0 180.02333923010465 0"></a-entity>
+    <a-entity id="Closet" obj-model="obj:assets/wardrobe_OBJ.obj" material="src:#wallTexture" position="27.387 4.929 -13.934" scale="0.091 0.05 0.1" rotation="0 180.02333923010465 0"></a-entity>
 
     <!--door-->
-    <a-entity obj-model="mtl:assets/Door.mtl;obj:assets/Door.obj" position="-34.129 3.563 14.409" scale="5 6 5" rotation="0 270 0"></a-entity>
+    <a-entity id="Doors" obj-model="mtl:assets/Door.mtl;obj:assets/Door.obj" position="-34.129 3.563 14.409" scale="5 6 5" rotation="0 270 0"></a-entity>
     <a-entity obj-model="mtl:assets/Door.mtl;obj:assets/Door.obj" position="20.158 3.563 -24.67" scale="5 6 5" rotation="0 90 0"></a-entity>
     <a-entity obj-model="mtl:assets/Door.mtl;obj:assets/Door.obj" position="-22.045 3.563 5.214" scale="5 6 5"></a-entity>
     <a-entity obj-model="mtl:assets/Door.mtl;obj:assets/Door.obj" position="35.411 3.563 -23.132" scale="5 6 5" rotation="0 90 0"></a-entity>
 
     <!--Bar-->
-    <a-entity obj-model="mtl:assets/bar.mtl;obj:assets/bar.obj" position="-16.044 2.756 1.215" scale="1.987 1.987 1.987"></a-entity>
+    <a-entity id="Bar" obj-model="mtl:assets/bar.mtl;obj:assets/bar.obj" position="-16.044 2.756 1.215" scale="1.987 1.987 1.987"></a-entity>
+
+    <!--Coffee Table-->
+    <a-entity id="Coffee table" obj-model="mtl:assets/Coffee.mtl;obj:assets/Coffee.obj" position="6.678 0.952 18.896" scale="3.183 3.183 3.183"></a-entity>
 
     <!--boxshelfs-->
-    <a-entity obj-model="mtl:assets/ShelfBox.mtl;obj:assets/ShelfBox.obj" rotation="0 -90.01166961505233 0" position="-31.526 2.791 26.549" scale="3.673 3.673 3.673"></a-entity>
+    <a-entity id="Boxshelfs" obj-model="mtl:assets/ShelfBox.mtl;obj:assets/ShelfBox.obj" rotation="0 -90.01166961505233 0" position="-31.526 2.791 26.549" scale="3.673 3.673 3.673"></a-entity>
 
     <!--kitchen-->
-    <a-entity obj-model="mtl:assets/Kitchen.mtl;obj:assets/Kitchen.obj" position="-38.691 3.816 -13.088" rotation="0 -90.012 0" scale="11.993 11.993 11.993"></a-entity>
+    <a-entity id="Kitchen" obj-model="mtl:assets/Kitchen.mtl;obj:assets/Kitchen.obj" position="-38.691 3.816 -13.088" rotation="0 -90.012 0" scale="11.993 11.993 11.993"></a-entity>
 
     <!--Bathroom-->
-    <a-entity obj-model="mtl:assets/Bathroom_1248.mtl;obj:assets/Bathroom_1248.obj" position="47.049 -0.403 -14.005" rotation="0 270 0" scale="0.469 0.242 0.453"></a-entity>
+    <a-entity id="Bathroom" obj-model="mtl:assets/Bathroom_1248.mtl;obj:assets/Bathroom_1248.obj" position="47.049 -0.403 -14.005" rotation="0 270 0" scale="0.469 0.242 0.453"></a-entity>
 
     <!--windows-->
-    <a-entity obj-model="mtl:assets/Window.mtl;obj:assets/Window.obj" position="-33.631 8.052 13.846" scale="3.349 5.422 8.089"></a-entity>
+    <a-entity id="Windows" obj-model="mtl:assets/Window.mtl;obj:assets/Window.obj" position="-33.631 8.052 13.846" scale="3.349 5.422 8.089"></a-entity>
     <a-entity obj-model="mtl:assets/Window.mtl;obj:assets/Window.obj" position="-20.114 12.516 -16.988" scale="6.105 8.692 47.607"></a-entity>
     <a-entity obj-model="mtl:assets/Window.mtl;obj:assets/Window.obj" position="-38.548 12.57 -30.051" scale="6.105 8.692 66.087" rotation="0 90.01166961505233 0"></a-entity>
     <a-entity obj-model="mtl:assets/Window.mtl;obj:assets/Window.obj" position="39.597 4.927 -58.596" scale="6.105 16.697 70.842" rotation="0 90.012 0"></a-entity>
@@ -309,7 +314,7 @@
     <a-light position="18.633 1.189 20.317" light="angle:75;color:#eaf32c;groundColor:#eff411;decay:0.5;distance:5;intensity:0.03;type:ambient"></a-light>
     <a-light position="18.633 1.189 23.338" light="angle:75;color:#eead17;groundColor:#eff411;decay:0.5;distance:5;intensity:0.075;type:ambient"></a-light>
 
-    <a-entity geometry="" position="19 -0.3 23.5" material="color:#222">
+    <a-entity id="Fire" geometry="" position="19 -0.3 23.5" material="color:#222">
 
         <a-entity geometry="primitive:plane" position="0 0.9128116666670475 0" material="shader:flat;side:double;transparent:true;src:images/fire.png">
             <a-animation attribute="position" to="0 0.95 0" easing="linear" repeat="indefinite" dur="450"></a-animation>

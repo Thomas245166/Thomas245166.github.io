@@ -4,6 +4,18 @@ all rights reserved
 
 #Credit
 
+Roommate of the Month Banner:
+http://www.picturetopeople.org/p2p/text_effects_generator.p2p/3d_steel_text_effect
+
+Hunter Paramore: Table
+https://poly.google.com/view/7qAyGZnerYt
+
+Poly by Google: Shelf
+https://poly.google.com/view/fAfJzZmQpgY
+
+Justin Randall: Bulb
+https://poly.google.com/view/8Px7hO6zcfg
+
 Don Carson: Camping Stuff
 https://poly.google.com/view/3GSiSGRuyfT
 
@@ -57,9 +69,6 @@ https://poly.google.com/view/bbDbt2LwIfY
 
 Poly by Google: Ladder
 https://poly.google.com/view/2miFomy5qis
-
-Francisco Hui: Coffee Table
-https://poly.google.com/view/dP74Xz2DlMe
 
 Poly by Google: Fireplace 
 https://poly.google.com/view/6XDexoAkTD2
