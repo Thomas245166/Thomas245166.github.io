@@ -67,23 +67,23 @@ it will play a firework sound because everyday is a party with my cat, Gregory.
 ## Dynamic Models
 
 #### Ceiling Fan
-![alt text](https://github.com/Thomas245166/Thomas245166.github.io/blob/master/screenshots/Shelf.JPG)
+![alt text](https://github.com/Thomas245166/Thomas245166.github.io/blob/master/screenshots/CeilingFan.JPG)
 
 Upon entering the VR enviroment, the ceiling in the living room will start spinning
 
 #### R2D2
-![alt text](https://github.com/Thomas245166/Thomas245166.github.io/blob/master/screenshots/Shelf.JPG)
+![alt text](https://github.com/Thomas245166/Thomas245166.github.io/blob/master/screenshots/R2.JPG)
 
 This little guy has so much excitement he is literally spinning in circles
 
 #### Like Button
-![alt text](https://github.com/Thomas245166/Thomas245166.github.io/blob/master/screenshots/Roommate_of_the_month.JPG)
+![alt text](https://github.com/Thomas245166/Thomas245166.github.io/blob/master/screenshots/Roommateofthemonth.JPG)
 
 Upon viewing the blue like buttons, each one will increase in size as a visual 
 representation of an clickable object.
 
 #### Fire
-![alt text](https://github.com/Thomas245166/Thomas245166.github.io/blob/master/screenshots/Shelf.JPG)
+![alt text](https://github.com/Thomas245166/Thomas245166.github.io/blob/master/screenshots/Fire.JPG)
 
 The fire in the fireplace will move up and down slowly, nice for chilling winter nights
 
@@ -103,7 +103,7 @@ modern kitchen needs, including: Stove, fridge, dinning table and windows
 
 
 #### Living room
-![alt text](https://github.com/Thomas245166/Thomas245166.github.io/blob/master/screenshots/Living room.JPG)
+![alt text](https://github.com/Thomas245166/Thomas245166.github.io/blob/master/screenshots/Livingroom.JPG)
 This area has a fire place, sofa, recliner and a coffee table, not to mention the floor
 to ceiling HDTV 
 
@@ -115,7 +115,7 @@ closet nd some candles and books
 
 
 #### Hidden Server Room
-![alt text](https://github.com/Thomas245166/Thomas245166.github.io/blob/master/screenshots/Hidden Server Room.JPG)
+![alt text](https://github.com/Thomas245166/Thomas245166.github.io/blob/master/screenshots/HiddenServerRoom.JPG)
 In here is where my smart house's brain lives, I have three server racks and a
 robot to help monitor all activity
 
