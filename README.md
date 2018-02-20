@@ -22,7 +22,7 @@ This object plays the sound of a record scratching when clicked on.
 When clicked on it will play the level up sound from Fallout: New Vegas.
 
 #### Nintendo Switch
-Plays the iconic noise present in all thier current commericals.
+Plays the iconic noise present in all their current commericals.
 
 #### UFO
 Plays the X files theme for spooky effects
@@ -32,7 +32,7 @@ This is one of my favorite animals, it will play the Blooper noise from
 New Super Mario Bros Wii
 
 #### Planet Express Ship
-Plays the "Welcome to the World of Tomorrow" line from the first episode of the
+Plays the "Welcome to the World of Tomorrow" line from the first episode of the Futurama
 series
 
 #### Link
@@ -50,7 +50,7 @@ Clicking on him will make him beep happily
 Plays the sound from the game of the pokeball closing/opening
 
 #### Star Destoryer
-No star destoryer can be complete with a Darth Vader Voice line. Will say "You should have not
+No star destroyer can be complete with a Darth Vader Voice line. Will say "You should have not
 returned" when clicked
 
 #### Triceratops
@@ -86,7 +86,7 @@ representation of an clickable object.
 #### Fire
 ![alt text](https://github.com/Thomas245166/Thomas245166.github.io/blob/master/screenshots/Fire.JPG)
 
-The fire in the fireplace will move up and down slowly, nice for chilling winter nights
+The fire in the fireplace will move up and down slowly, nice for chilly winter nights
 
 ## Static Models
 
@@ -112,7 +112,7 @@ to ceiling HDTV
 #### Bedroom
 ![alt text](https://github.com/Thomas245166/Thomas245166.github.io/blob/master/screenshots/Bedroom.JPG)
 In here I have a desk with a computer, a wizards table to practice the arcane arts, and my
-closet nd some candles and books
+closet and also some candles and books
 
 
 #### Hidden Server Room
@@ -123,7 +123,7 @@ robot to help monitor all activity
 
 #### Garage
 ![alt text](https://github.com/Thomas245166/Thomas245166.github.io/blob/master/screenshots/Garage.JPG)
-In here are a few vechicles I like, there is a moped for quick escapes and a war 
+In here are a few vehicles I like, there is a moped for quick escapes and a war 
 tank in the event I need more firepower, with a garage door for entry and in the back corner is a wood chopping area 
 complete with camping gear
 
