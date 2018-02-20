@@ -3,7 +3,9 @@
 Thomas Sanchez
 
 All rights reserved
+
 See video walkthrough here: https://youtu.be/3IT3-mnqayo
+
 See demo example here: thomas245166.github.io
 
 ## Interactables
