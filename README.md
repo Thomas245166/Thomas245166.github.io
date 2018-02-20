@@ -6,9 +6,11 @@ All rights reserved
 
 See video walkthrough here: https://youtu.be/3IT3-mnqayo
 
-See demo example here: thomas245166.github.io
+See demo example here: http://thomas245166.github.io
 
 ## Interactables
+
+![Alt text](https://github.com/thomas245166/thomas245166.github.io/screenshots/Shelf.jpg)
 
 On the shelf located to the right of the living room are two shelves filled with models from games/movies/animals that I
 personally enjoy. Each object located there will is able to play a sound that relates to the model.
