@@ -261,8 +261,8 @@ THREE.ColladaLoader.prototype = {
 		function parseAnimationSampler( xml ) {
 
 			var data = {
-				inputs: {}
-            };
+				inputs: {},
+			};
 
 			for ( var i = 0, l = xml.childNodes.length; i < l; i ++ ) {
 
