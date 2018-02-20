@@ -6,6 +6,36 @@ All rights reserved
 
 #Credit
 
+Teh LaughingMan: Planet Express Ship
+https://poly.google.com/view/4FjZ6AzqTQI
+
+Poly by Google: Flying Saucer
+https://poly.google.com/view/fojR5i3h_nh
+
+Alberto Calvo: Switch
+https://poly.google.com/view/brxBpvrkAEA
+
+Timothy 'YM' Johnson: Squid
+https://poly.google.com/view/bUjvcUjUIfi
+
+Hoai Nguyen: Tricerabot
+https://poly.google.com/view/1FwnmJcupxI
+
+Corentin Fatus: Poke Ball
+https://poly.google.com/view/1AlBTqf2w22
+
+Mason: Pip-Boy Model 3000 IV
+https://poly.google.com/view/25Z6YXY6mSC
+
+Tomas Bayer: Overwatch Lootbox
+https://poly.google.com/view/euS1riZCDXo
+
+Don Carson: Gramophone
+https://poly.google.com/view/9MZ0sCt1REv
+
+Alberto Calvo: Link
+https://poly.google.com/view/a1vmc5a1IIG
+
 Jarlan Perez: Toilet Paper Roll
 https://poly.google.com/view/2oyXb4vEPaj
 

@@ -25,7 +25,7 @@
     </a-assets>
 
     <a-sky src="#skyTexture"></a-sky>
-
+    
     <a-entity position="0 3 0">
         <a-camera universal-controls>
             <a-entity raycaster="far: 150; objects: .intersectable" cursor geometry="primitive: ring; radiusOuter: 0.015;
@@ -178,8 +178,40 @@
         <a-animation attribute="rotation" dur="10000" to="0 360 0" repeat="indefinite"></a-animation>
     </a-entity>
 
+    <!--Link-->
+    <a-entity id="Link" obj-model="mtl:assets/Link.mtl;obj:assets/Link.obj" position="-4.616 2.611 27.445" rotation="0 -28.189523520436502 1.776169164905552" scale="0.269 0.269 0.269">
+        <a-animation attribute="rotation" dur="10000" to="0 360 0" repeat="indefinite"></a-animation>
+    </a-entity>
+
+    <!--Overwatch-->
+    <a-entity id="Overwatch" obj-model="mtl:assets/Overwatch_LootBox.mtl;obj:assets/Overwatch_LootBox.obj" position="-8.736 1.609 27.651" scale="0.013 0.013 0.013"></a-entity>
+
+    <!--Planet Ex Ship-->
+    <a-entity id="PlanetExShip" obj-model="mtl:assets/PlanetExShip.mtl;obj:assets/PlanetExShip.obj" position="-21.018 5.054 27.327" scale="-0.014 -0.014 -0.014" rotation="90.01166961505233 0 0"></a-entity>
+
+    <!--Switch-->
+    <a-entity id="Switch" obj-model="mtl:assets/Switch.mtl;obj:assets/Switch.obj" position="-11.483 5.755 27.114" scale="0.337 0.337 0.337" rotation="0 151.83381570966816 0"></a-entity>
+
+    <!--Saucer-->
+    <a-entity id="Saucer" obj-model="mtl:assets/flying sacuer.mtl;obj:assets/flying sacuer.obj" position="-14.126 5.509 27.043" scale="0.643 0.643 0.643" rotation="0 151.834 0"></a-entity>
+
+    <!--Triceratops-->
+    <a-entity id="Triceratop" obj-model="mtl:assets/Triceratop.mtl;obj:assets/Triceratop.obj" position="-20.748 2.123 27.09" scale="1.341 1.341 1.341"></a-entity>
+
+    <!--Pokeball-->
+    <a-entity id="Poke" obj-model="mtl:assets/Poke.mtl;obj:assets/Poke.obj" position="-14.102 2.08 26.836" scale="4.49 4.49 4.49" rotation="0 -59.186540237014036 0"></a-entity>
+
+    <!--Squid-->
+    <a-entity id="Squid" obj-model="mtl:assets/Squid.mtl;obj:assets/Squid.obj" position="-17.411 5.521 27.147" scale="1.05 1.05 1.05" rotation="7.219268218648373 -30.137580023881302 32.02834074781302"></a-entity>
+
+    <!--PipBoy-->
+    <a-entity id="Pipboy" obj-model="mtl:assets/Pipboy.mtl;obj:assets/Pipboy.obj" position="-8.356 5.58 26.925" scale="4.069 4.069 4.069"></a-entity>
+
+    <!--Phonograph-->
+    <a-entity id="Phonograph" obj-model="mtl:assets/Phonograph.mtl;obj:assets/Phonograph.obj" position="-4.866 5.737 27.445" rotation="0 -104.33561449332291 1.7188733853924696" scale="2.659 2.659 2.659"></a-entity>
+
     <!-- Scott's StarDestroyer -->
-    <a-obj-model id="StarDestroyer" src="assets/StarDestroyer.obj" position="-17.5 1.65 27.395" scale="0.6 0.6 0.6" class="intersectable" material="src:#star" obj-model=""></a-obj-model>
+    <a-obj-model id="StarDestroyer" src="assets/StarDestroyer.obj" position="-17.568 1.65 27.646" scale="0.6 0.6 0.6" class="intersectable" material="src:#star" rotation="0 44.34693334312572 0"></a-obj-model>
 
     <!--Sofa-->
     <a-entity id="Couch" obj-model="mtl:assets/Couch.mtl;obj:assets/Couch.obj" rotation="0 180 0" position="8.584 1.409 13.793" scale="7.644 7.644 7.644"></a-entity>
@@ -241,12 +273,14 @@
     <a-light position="-14.091 4 27.061" rotation="-90 180 180" light="angle:21;decay:0.1;distance:3;type:spot"></a-light>
     <a-light position="-8.1 4 26.989" rotation="-90 180 180" light="angle:21;decay:0.1;distance:3;type:spot"></a-light>
     <a-light position="-4.759 4 27.403" rotation="-90 180 180" light="angle:35;decay:0.1;distance:3;type:spot"></a-light>
+    <a-light position="-21.001 4 27.336" rotation="-90 180 180" light="angle:30;decay:0.1;distance:3.01;type:spot"></a-light>
 
     <a-light position="-17.445 7.5 27.336" rotation="-90 180 180" light="angle:45;decay:0.1;distance:3.01;type:spot"></a-light>
     <a-light position="-11.438 7.5 27.142" rotation="-90 180 180" light="angle:26;decay:0.1;distance:3;type:spot"></a-light>
     <a-light position="-14.091 7.5 27.061" rotation="-90 180 180" light="angle:21;decay:0.1;distance:3;type:spot"></a-light>
     <a-light position="-8.1000 7.5 26.989" rotation="-90 180 180" light="angle:21;decay:0.1;distance:3;type:spot"></a-light>
-    <a-light position="-4.7590 7.5 27.403" rotation="-90 180 180" light="angle:35;decay:0.1;distance:3;type:spot"></a-light>
+    <a-light position="-21.001 7.428 27.336" rotation="-90 180 180" light="angle:30;decay:0.1;distance:3.01;type:spot"></a-light>
+    <a-light position="-4.759 8.548 27.561" rotation="-90.01166961505233 180.02333923010465 180.02333923010465" light="distance:4;angle:35;decay:0.1;type:spot"></a-light>
 
     <!--LIGHTBULBS-->
     <a-entity id="LIGHT-1" obj-model="mtl:assets/LIGHT.mtl;obj:assets/LIGHT.obj" position="-17.47 4.876 27.198" scale="2 2 2" rotation="0 0 180.02333923010465"></a-entity>
