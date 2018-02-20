@@ -3,47 +3,121 @@
 Thomas Sanchez
 
 All rights reserved
+See video walkthrough here: https://youtu.be/3IT3-mnqayo
+See demo example here: thomas245166.github.io
 
-See example here: https://github.com/manorepo/Text-Visualization
+## Interactables
 
-Create a 1-minute video showing the use of your application with your voice over.
- 
-That video should appear on the top of your github readme file. 
+On the shelf located to the right of the living room are two shelves filled with models from games/movies/animals that I
+personally enjoy. Each object located there will is able to play a sound that relates to the model.
 
-The video can be used as a backup during your presentation just in case of something go wrong.
+#### Phonograph
+This object plays the sound of a record scratching when clicked on.
 
-Add a link to your web-based application (right after the video).
+#### Pipboy
+When clicked on it will play the level up sound from Fallout: New Vegas.
 
-You can host it on your github or your ttu personal page.
+#### Nintendo Switch
+Plays the iconic noise present in all thier current commericals.
 
-Clearly explain the duties of each student in your group (if you work as a group).
+#### UFO
+Plays the X files theme for spooky effects
 
-Describe your application by screenshots (with meaningful captions) and text. 
+#### Squid
+This is one of my favorite animals, it will play the Blooper noise from 
+New Super Mario Bros Wii
 
-Make sure you have the list and screenshots of models.
+#### Planet Express Ship
+Plays the "Welcome to the World of Tomorrow" line from the first episode of the
+series
 
-Links to all the source code and any assets (models, textures, sounds). Make sure you source code is well-commented.
+#### Link
+Will play the sound of Link falling and screaming from the Legend of Zelda: Wind 
+Waker
+
+#### Overwatch Loot Box
+This will play the voice from one of the characters (Lucio), the voice line
+is "Speed Boost!"
+
+#### R2D2
+Clicking on him will make him beep happily
+
+#### Pokeball
+Plays the sound from the game of the pokeball closing/opening
+
+#### Star Destoryer
+No star destoryer can be complete with a Darth Vader Voice line. Will say "You should have not
+returned" when clicked
+
+#### Triceratops
+My favorite dinosaur that will let out a mighty roar when clicked.
+
+#### Robot
+This little guy is charge of my server room, here he uses Morse code to communicate,
+Click on him to hear what he has to say
+
+#### Like Buttons
+Underneath every picture of the Roommate of the Month is a Blue button, when clicked
+it will play a firework sound because everyday is a party with my cat, Gregory.
+
+## Dynamic Models
+
+#### Ceiling Fan
+Upon entering the VR enviroment, the ceiling in the living room will start spinning
+
+#### R2D2
+This little guy has so much excitement he is literally spinning in circles
+
+#### Like Button
+Upon viewing the blue like buttons, each one will increase in size as a visual 
+representation of an clickable object.
+
+#### Fire
+The fire in the fireplace will move up and down slowly, nice for chilling winter nights
+
+## Static Models
+
+#### Bathroom
+Inside here is a single object which fully furnishes a bathroom complete with
+a bath tub, toliet, sink and mirror.
+
+#### Kitchen
+Similar to the Bathroom, the kitchen is single ojbect whichs contains every thing
+modern kitchen needs, including: Stove, fridge, dinning table and windows
+
+#### Living room
+This area has a fire place, sofa, recliner and a coffee table, not to mention the floor
+to ceiling HDTV 
+
+#### Bedroom 
+In here I have a desk with a computer, a wizards table to practice the arcane arts, and my
+closet nd some candles and books
+
+#### Hidden Server Room
+In here is where my smart house's brain lives, I have three server racks and a
+robot to help monitor all activity
+
+#### Garage
+In here are a few vechicles I like, there is a moped for quick escapes and a war 
+tank in the event I need more firepower, with a garage door for entry and in the back corner is a wood chopping area 
+complete with camping gear
+
+#### Laundry Room
+In here I have a basic washer and drying along with some tools like a drill and paper towels
+as well as a small box shelf outside the room containing some small toys.
+
+#### Foyer
+This is the main room of the house, it contains the Roommate of the Month frames as well as my
+wet bar for entertaining guests, just be sure not to trip over the rug while dancing
+
+# Help Menu
+
+Movement is handled by the wasd keys on computers with a left mouse click to interact with models.
+For mobile devices users, movement is done by tapping and holding the screen, tapping is also used to interact
+with the models
 
 
-The presentation is 5 minutes per person (everyone needs to present). 
-
-It is 4-minute talk and 1 minute for questions. You can present directly on your report (slides are not required). 
-
-Make sure that you are ready to talk right after the person/group in front of you is done.
-
-Show a live demo of your work: Show the basic functionality and emphasize why your VR is different. 
-
-You should include screenshots in your report/slides as well.
-
-Make sure your demo/app is self-contained: No hidden keyboard/mouse control, no hidden functionality (for example, users might not know that they have to click on the Angry bird to play the sound). In case you have these hidden controls, you need to make them available in the GUI:
-
-Use highlighting principles (such as blinking) in my lecture 4.
-
-A help menu is useful for uses of keyboard/mouse and it can work as a quick manual.
-
-Please practice your talk.
-
-#Credit
+# Credits
 
 Link sound: http://noproblo.dayjo.org/ZeldaSounds/
 
