@@ -1,8 +1,46 @@
 #Project 1 VR 4331-001
+
 Thomas Sanchez
-all rights reserved
+
+All rights reserved
 
 #Credit
+
+Jarlan Perez: Toilet Paper Roll
+https://poly.google.com/view/2oyXb4vEPaj
+
+Lesley Klassen: Guest Chair
+https://poly.google.com/view/e3LikHhpJsF
+
+Danny Bittman: Couch | Wde
+https://poly.google.com/view/7Q_Ab2HLll1
+
+Jarlan Perez: Rug
+https://poly.google.com/view/eYK3HHiuwRV
+
+Colin McKibben: Flourescent Fixture
+https://poly.google.com/view/b434Bd1ozKE
+
+Danny Bittman: Standing Lamp
+https://poly.google.com/view/aZyMp9TEk0I
+
+Thomas Balouet: Mounted Lamp
+https://poly.google.com/view/2KRNNF2ndWt
+
+Maxwell Planck: Fantasy Tank
+https://poly.google.com/view/4XjRDOSpazi
+
+Vladmir Ilic: Vr-Mobil
+https://poly.google.com/view/6XXj6DSBb08
+
+Amy Hendricks: Robit
+https://poly.google.com/view/b1YcejyrNtO
+
+Poly by Google: Closet
+https://poly.google.com/view/2qdm7DZVG94
+
+Mikael Ganehag Brorsson: Server Rack:
+https://poly.google.com/view/60s93Adyxvj
 
 Like picture:
 https://www.shareicon.net/approve-thumb-like-872775
@@ -27,15 +65,6 @@ https://poly.google.com/view/4U4lI91VbsO
 
 Jonathan Granskog: Box Shelf
 https://poly.google.com/view/3aAw-c_7gkO
-
-Poly by Google: Motorcycle
-https://poly.google.com/view/5_MTCnqfUTr
-
-Poly by Google: Bike
-https://poly.google.com/view/edNZoeH3lVP
-
-Teh LaughingMan: WartHog
-https://poly.google.com/view/8QlCgkp5aVH
 
 Wesley Thompson: Garage Door
 https://poly.google.com/view/4zdVu_Lk3sV
@@ -64,14 +93,11 @@ https://poly.google.com/view/6bOTntCJyyK
 Eric Finn: R2D2 
 https://poly.google.com/view/dPgkqmBDqgH
 
-Damon Pidhajecky: Alien Jetpack Go! 
-https://poly.google.com/view/7VJiMcRcn6d
-
 Adrian Hon: Bedroom
 https://poly.google.com/view/bbDbt2LwIfY
 
-Poly by Google: Ladder
-https://poly.google.com/view/2miFomy5qis
+Remy Tauziac: Drill
+https://poly.google.com/view/bhOpjMLGCVp
 
 Poly by Google: Fireplace 
 https://poly.google.com/view/6XDexoAkTD2
@@ -103,7 +129,8 @@ https://www.freepik.com/free-photo/black-quilted-texture_871291.htm#term=leather
 TCP Library: Shelf texture
 http://www.tcplibrary.org/2018/01/teen-january-programs.html
 
-Garage Texture: http://texturelib.com/texture/?path=/Textures/concrete/floor/concrete_floor_0059
+Garage Texture: 
+http://texturelib.com/texture/?path=/Textures/concrete/floor/concrete_floor_0059
 
 Star texture: 
 https://www.artstation.com/artwork/1De53

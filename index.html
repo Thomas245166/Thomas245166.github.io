@@ -25,16 +25,13 @@
     </a-assets>
 
     <a-sky src="#skyTexture"></a-sky>
-<!--
+
     <a-entity position="0 3 0">
         <a-camera universal-controls>
             <a-entity raycaster="far: 150; objects: .intersectable" cursor geometry="primitive: ring; radiusOuter: 0.015;
                                radiusInner: 0.01; segmentsTheta: 32" material="color: #283644; shader: flat" position="0 0 -0.75"></a-entity>
         </a-camera>
     </a-entity>
--->
-
-    <a-camera><a-cursor></a-cursor></a-camera>
 
     <!--Banner-->
     <a-entity geometry="width:18;height:2;primitive:plane" position="-1.598 8.279 -29.326" material="shader:flat;transparent:true;src:images/rotm.png"></a-entity>
@@ -42,7 +39,7 @@
     <!--ROOMMATE of the Month pictures-->
     <a-entity geometry="primitive:plane;height:2.2;width:1.8" position="-18 6 -28.98" material="shader:flat;transparent:true;src:images/Cat-Swag.png"></a-entity>
     <a-entity geometry="primitive:plane;height:2.2;width:1.8" position="-15 6 -28.98" material="shader:flat;transparent:true;src:images/Yawn-Cat.png"></a-entity>
-    <a-entity geometry="primitive:plane;height:2.2;width:1.8" position="-12 6 -28.98" material="shader:flat;transparent:true;src:images/Tiny-Teffs.png"></a-entity>
+    <a-entity geometry="primitive:plane;height:2.2;width:1.8" position="-12 6 -28.98" material="shader:flat;transparent:true;src:images/Teffs.png"></a-entity>
     <a-entity geometry="primitive:plane;height:2.2;width:1.8" position="-9 6 -28.98" material="shader:flat;transparent:true;src:images/Tiny-Blep.png"></a-entity>
     <a-entity geometry="primitive:plane;height:2.2;width:1.8" position="-6 6 -28.98" material="shader:flat;transparent:true;src:images/Purr-ito.png"></a-entity>
     <a-entity geometry="primitive:plane;height:2.2;width:1.8" position="-3 6 -28.98" material="shader:flat;transparent:true;src:images/Space-Cat.png"></a-entity>
@@ -167,9 +164,6 @@
         <a-animation begin="click" attribute="position" from="15 4.2 -29.5" to="15 4.2 -30" dur="1000"></a-animation>
     </a-box>
 
-    <!--Like Button-->
-    <a-entity geometry="width:.3;height:.3;primitive:plane" position="0 0 0" material="shader:flat;transparent:true;src:images/approve.png"></a-entity>
-
     <!--bookshelf-->
     <a-entity id="Living Room Bookshelf" obj-model="obj:assets/bookshelf.obj;mtl:assets/bookshelf.mtl" position="18.81 4.5 7.18" scale="2 2 2" rotation="0 99.78 0"></a-entity>
     <a-entity obj-model="obj:assets/bookshelf.obj;mtl:assets/bookshelf.mtl" position="18.81 4.5 -11.6" scale="2 2 2" rotation="0 99.78 0"></a-entity>
@@ -188,13 +182,21 @@
     <a-obj-model id="StarDestroyer" src="assets/StarDestroyer.obj" position="-17.5 1.65 27.395" scale="0.6 0.6 0.6" class="intersectable" material="src:#star" obj-model=""></a-obj-model>
 
     <!--Sofa-->
-    <a-obj-model id="Sofa" src="assets/Canape.obj" position="16.718 0 15.921" rotation="0 270 0" class="intersectable" material="src:#Sofa" obj-model="" scale="4.5 4.5 4.5" id="Sofa"></a-obj-model>
+    <a-entity id="Couch" obj-model="mtl:assets/Couch.mtl;obj:assets/Couch.obj" rotation="0 180 0" position="8.584 1.409 13.793" scale="7.644 7.644 7.644"></a-entity>
+
+    <!--Recliner-->
+    <a-entity id="Recliner" obj-model="mtl:assets/Recliner.mtl;obj:assets/Recliner.obj" rotation="0 180 0" position="0.246 2.307 20.233" scale="8.923 8.923 8.923"></a-entity>
 
     <!--HDTV-->
     <a-entity id="TV" obj-model="mtl:assets/HDTV.mtl;obj:assets/HDTV.obj" rotation="0 180 0" position="-192 0 -135.607" scale="0.5 0.5 0.5"></a-entity>
 
     <!--Bed -->
     <a-entity id="Bed" obj-model="mtl:assets/Bed.mtl;obj:assets/Bed.obj" position="55.059 2.71 -31.495" scale="7.604 7.604 7.604" rotation="0 59.47301913457945 0"></a-entity>
+
+    <!--Server Rack-->
+    <a-entity id="Servers" obj-model="mtl:assets/ServerRack.mtl;obj:assets/ServerRack.obj" position="22.691 4.532 -1.483" scale="3.611 3.611 3.611"></a-entity>
+    <a-entity id="Servers-2" obj-model="mtl:assets/ServerRack.mtl;obj:assets/ServerRack.obj" position="22.691 4.532 -6.387" scale="3.611 3.611 3.611"></a-entity>
+    <a-entity id="Servers-3" obj-model="mtl:assets/ServerRack.mtl;obj:assets/ServerRack.obj" position="22.691 4.532 -11.027" scale="3.611 3.611 3.611"></a-entity>
 
     <!-- walls-->
     <a-box id="Walls" src="#wallTexture" color="tomato" height="10" width="60" depth="1" position="-33.607 5 6.55" rotation="0 90 0" scale="0.17 1 1"></a-box>
@@ -266,20 +268,37 @@
     <!--Fireplace-->
     <a-entity id="Fireplace" obj-model="mtl:assets/Fireplace.mtl;obj:assets/Fireplace.obj" position="28.75 0 20.5" scale="0.00027 0.00027 0.00027"></a-entity>
 
-    <!--bike-->
-    <a-entity id="Bike" obj-model="mtl:assets/Bike.mtl;obj:assets/Bike.obj" position="-52.371 5.747 -3.675" scale="0.005 0.005 0.005" rotation="0 90.01166961505233 0"></a-entity>
-
     <!--Garage-->
     <a-entity id="Garage Door" obj-model="mtl:assets/Garage.mtl;obj:assets/Garage.obj" position="-46.217 0 29.957" scale="5.592 5.592 11.076"></a-entity>
 
-    <!--Warthog-->
-    <a-entity id="Warthog" obj-model="mtl:assets/WartHog.mtl;obj:assets/Warthog.obj" position="-53.072 -3.759 15.895" rotation="-90.01166961505233 180 0" scale="0.367 0.367 0.367"></a-entity>
-
-    <!--Motorcycle-->
-    <a-entity id="Motorcycle" obj-model="mtl:assets/Motorcycle.mtl;obj:assets/Motorcycle.obj" position="-42.426 0 20.623" rotation="0 -90.01166961505233 0" scale="0.745 0.745 0.745"></a-entity>
-
     <!--Washer-->
     <a-entity id="Washer" obj-model="mtl:assets/Washer.mtl;obj:assets/Washer.obj" position="-29.676 2.907 -3.272" scale="22.312 22.312 22.312" rotation="-1.6615776058793874 61.93673765364199 0.8594366926962348"></a-entity>
+
+    <!--Motorcycle-->
+    <a-entity id="Motorcycle" obj-model="mtl:assets/Motorcycle.mtl;obj:assets/Motorcycle.obj" position="-53.56 2.44 15.586" scale="1.567 1.567 1.567" rotation="0 90 0"></a-entity>
+
+    <!--Tank-->
+    <a-entity id="Tank" obj-model="mtl:assets/Tank.mtl;obj:assets/Tank.obj" position="-43.894 3.5 15.882" scale="18.672 18.672 18.672" rotation="4.927437038125079 -50.2483986329732 -5.901465289847479"></a-entity>
+
+    <!--Lamp for garage light-->
+    <a-entity id="Garage Lamp" obj-model="mtl:assets/GarageLight.mtl;obj:assets/GarageLight.obj" position="-46.217 9.092 9.721" scale="18.551 18.551 18.551"></a-entity>
+
+    <!--Lamp for Foyer-->
+    <a-entity id="Foyer Lamp" obj-model="mtl:assets/FoyerLamp.mtl;obj:assets/FoyerLamp.obj" position="18.529 5.373 -19.033" scale="1.606 1.606 1.606"></a-entity>
+
+    <!--Fixture for kitchen light-->
+    <a-entity id="Kitchen Lamp" obj-model="mtl:assets/Flourscent.mtl;obj:assets/Flourscent.obj" position="-37.425 14.069 -18.889" scale="25.82 25.82 25.82"></a-entity>
+
+    <!--Drill-->
+    <a-entity id="Drill" obj-model="mtl:assets/Drill.mtl;obj:assets/Drill.obj" position="-29.676 6.46 -3.809" scale="3.684 3.684 3.684" rotation="-20.110818609091893 -180.02333923010465 -90.01166961505233"></a-entity>
+
+    <!--Toilet Paper-->
+    <a-entity id="TP" obj-model="mtl:assets/TP.mtl;obj:assets/TP.obj" position="-32.092 7.338 -1.094" scale="9.018 3.684 3.684" rotation="0 0 90"></a-entity>
+    <a-entity id="TP-2" obj-model="mtl:assets/TP.mtl;obj:assets/TP.obj" position="-32.092 7.414 2.215" scale="9.555 3.684 3.684" rotation="0 0 90"></a-entity>
+    <a-entity id="TP-3" obj-model="mtl:assets/TP.mtl;obj:assets/TP.obj" position="-32.092 7.472 0.5" scale="10.018 3.684 3.684" rotation="0 0 90"></a-entity>
+
+    <!--Robot-->
+    <a-entity id="Robot" obj-model="mtl:assets/robit.mtl;obj:assets/robit.obj" position="27.756 4.471 -7.09" scale="5.261 5.261 5.261" rotation="0 90.01166961505233 0"></a-entity>
 
     <!--Wizard-->
     <a-entity id="Wizard table" obj-model="mtl:assets/Wizard.mtl;obj:assets/Wizard.obj" position="23.923 2.93 -39.902" scale="2.665 3.758 3.589"></a-entity>
@@ -288,7 +307,7 @@
     <a-entity id="Bedroom Book Case" obj-model="mtl:assets/Bookcase.mtl;obj:assets/Bookcase.obj" position="57.068 2.312 -45.535" scale="6.066 4.493 6.648" rotation="0 90 0"></a-entity>
 
     <!--Desk-->
-    <a-entity id="Desk" obj-model="mtl:assets/Wall_Desk_Speakers_1341.mtl;obj:assets/Wall_Desk_Speakers_1341.obj" position="27.855 0.136 -50.567" scale="0.165 0.165 0.165" rotation="0 90 0"></a-entity>
+    <a-entity id="Desk" obj-model="mtl:assets/Wall_Desk_Speakers_1341.mtl;obj:assets/Wall_Desk_Speakers_1341.obj" position="27.855 -1.5 -50.567" scale="0.165 0.165 0.165" rotation="0 90 0"></a-entity>
 
     <!--Camping Stuff-->
     <a-entity id="Camping stuff" obj-model="mtl:assets/Camping stuff.mtl;obj:assets/Camping stuff.obj" position="-36.527 2.791 0.9" scale="6.648 6.648 6.648"></a-entity>
@@ -297,8 +316,11 @@
     <a-entity id="storage shelf" obj-model="mtl:assets/Shelf.mtl;obj:assets/Shelf.obj" position="-30.983 0.528 -6.325" scale="0 0 0"></a-entity>
     <a-entity obj-model="mtl:assets/Shelf.mtl;obj:assets/Shelf.obj" position="-21.784 0.528 -2.472" scale="0.00001 0.00001 0.00001" rotation="0 -90 0"></a-entity>
 
+    <!--Rug-->
+    <a-entity id="Rug" obj-model="mtl:assets/Rug.mtl;obj:assets/Rug.obj" position="-1.675 0.117 -16.3" scale="7.535 7.535 7.535" rotation="0 90 0"></a-entity>
+
     <!--closet-->
-    <a-entity id="Closet" obj-model="obj:assets/wardrobe_OBJ.obj" material="src:#wallTexture" position="27.387 4.929 -13.934" scale="0.091 0.05 0.1" rotation="0 180.02333923010465 0"></a-entity>
+    <a-entity id="Closet" obj-model="mtl:assets/SM_Closet_02.mtl;obj:assets/SM_Closet_02.obj" position="28.252 0 -14.837" scale="3.98 2.856 2.856" rotation="0 180 0"></a-entity>
 
     <!--door-->
     <a-entity id="Doors" obj-model="mtl:assets/Door.mtl;obj:assets/Door.obj" position="-34.129 3.563 14.409" scale="5 6 5" rotation="0 270 0"></a-entity>
@@ -310,7 +332,7 @@
     <a-entity id="Bar" obj-model="mtl:assets/bar.mtl;obj:assets/bar.obj" position="-16.044 2.756 1.215" scale="1.987 1.987 1.987"></a-entity>
 
     <!--Coffee Table-->
-    <a-entity id="Coffee table" obj-model="mtl:assets/Coffee.mtl;obj:assets/Coffee.obj" position="6.678 0.952 18.896" scale="3.183 3.183 3.183"></a-entity>
+    <a-entity id="Coffee table" obj-model="mtl:assets/Coffee.mtl;obj:assets/Coffee.obj" position="9.2 0.952 20" scale="3.183 3.183 3.183"></a-entity>
 
     <!--boxshelfs-->
     <a-entity id="Boxshelfs" obj-model="mtl:assets/ShelfBox.mtl;obj:assets/ShelfBox.obj" rotation="0 -90.01166961505233 0" position="-31.526 2.791 26.549" scale="3.673 3.673 3.673"></a-entity>
