@@ -57,6 +57,7 @@ returned" when clicked
 My favorite dinosaur that will let out a mighty roar when clicked.
 
 #### Robot
+![alt text](https://github.com/Thomas245166/Thomas245166.github.io/blob/master/screenshots/robot.JPG)
 This little guy is charge of my server room, here he uses Morse code to communicate,
 Click on him to hear what he has to say
 
