@@ -10,7 +10,7 @@ See demo example here: http://thomas245166.github.io
 
 ## Interactables
 
-![Alt text](https://github.com/thomas245166/thomas245166.github.io/screenshots/Shelf.jpg)
+![alt text](https://github.com/Thomas245166/Thomas245166.github.io/blob/master/screenshots/Shelf.JPG)
 
 On the shelf located to the right of the living room are two shelves filled with models from games/movies/animals that I
 personally enjoy. Each object located there will is able to play a sound that relates to the model.
@@ -67,52 +67,77 @@ it will play a firework sound because everyday is a party with my cat, Gregory.
 ## Dynamic Models
 
 #### Ceiling Fan
+![alt text](https://github.com/Thomas245166/Thomas245166.github.io/blob/master/screenshots/Shelf.JPG)
+
 Upon entering the VR enviroment, the ceiling in the living room will start spinning
 
 #### R2D2
+![alt text](https://github.com/Thomas245166/Thomas245166.github.io/blob/master/screenshots/Shelf.JPG)
+
 This little guy has so much excitement he is literally spinning in circles
 
 #### Like Button
+![alt text](https://github.com/Thomas245166/Thomas245166.github.io/blob/master/screenshots/Roommate_of_the_month.JPG)
+
 Upon viewing the blue like buttons, each one will increase in size as a visual 
 representation of an clickable object.
 
 #### Fire
+![alt text](https://github.com/Thomas245166/Thomas245166.github.io/blob/master/screenshots/Shelf.JPG)
+
 The fire in the fireplace will move up and down slowly, nice for chilling winter nights
 
 ## Static Models
 
+
 #### Bathroom
+![alt text](https://github.com/Thomas245166/Thomas245166.github.io/blob/master/screenshots/Bathroom.JPG)
 Inside here is a single object which fully furnishes a bathroom complete with
 a bath tub, toliet, sink and mirror.
 
+
 #### Kitchen
+![alt text](https://github.com/Thomas245166/Thomas245166.github.io/blob/master/screenshots/Kitchen.JPG)
 Similar to the Bathroom, the kitchen is single ojbect whichs contains every thing
 modern kitchen needs, including: Stove, fridge, dinning table and windows
 
+
 #### Living room
+![alt text](https://github.com/Thomas245166/Thomas245166.github.io/blob/master/screenshots/Living room.JPG)
 This area has a fire place, sofa, recliner and a coffee table, not to mention the floor
 to ceiling HDTV 
 
-#### Bedroom 
+
+#### Bedroom
+![alt text](https://github.com/Thomas245166/Thomas245166.github.io/blob/master/screenshots/Bedroom.JPG)
 In here I have a desk with a computer, a wizards table to practice the arcane arts, and my
 closet nd some candles and books
 
+
 #### Hidden Server Room
+![alt text](https://github.com/Thomas245166/Thomas245166.github.io/blob/master/screenshots/Hidden Server Room.JPG)
 In here is where my smart house's brain lives, I have three server racks and a
 robot to help monitor all activity
 
+
 #### Garage
+![alt text](https://github.com/Thomas245166/Thomas245166.github.io/blob/master/screenshots/Garage.JPG)
 In here are a few vechicles I like, there is a moped for quick escapes and a war 
 tank in the event I need more firepower, with a garage door for entry and in the back corner is a wood chopping area 
 complete with camping gear
 
+
 #### Laundry Room
+![alt text](https://github.com/Thomas245166/Thomas245166.github.io/blob/master/screenshots/Laundry.JPG)
 In here I have a basic washer and drying along with some tools like a drill and paper towels
 as well as a small box shelf outside the room containing some small toys.
 
+
 #### Foyer
+![alt text](https://github.com/Thomas245166/Thomas245166.github.io/blob/master/screenshots/Foyer.JPG)
 This is the main room of the house, it contains the Roommate of the Month frames as well as my
 wet bar for entertaining guests, just be sure not to trip over the rug while dancing
+
 
 # Help Menu
 
