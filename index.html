@@ -272,6 +272,83 @@
         <a-animation begin="click" attribute="position" from="15 4.2 -29.5" to="15 4.2 -29.7" dur="1000"></a-animation>
     </a-box>
 
+    <!-- ceiling-->
+    <a-box id="Ceilings" src="#ceilingTexture" color="grey" height="1" width="40" depth="60" position="0 10 0"
+           material="" geometry=""></a-box>
+    <a-box src="#ceilingTexture" color="grey" height="1" width="40" depth="60" position="-38.903 10 14.878"
+           geometry="depth:40;height:1.01;width:39.97"></a-box>
+    <a-box src="#ceilingTexture" color="grey" height="1" width="40" depth="60" position="39.612 10 -30.379"></a-box>
+    <a-box src="#ceilingTexture" color="grey" height="1" width="40" depth="60" position="-39.933 15.566 -15.546"
+           geometry="depth:30" material=""></a-box>
+
+    <!--floor-->
+    <a-plane id="Floors" src="#groundTexture" rotation="-90.012 0 0" width="40" height="60" repeat="10 10" material=""
+             geometry=""></a-plane>
+    <a-plane src="#bathTexture" rotation="-90.012 0 0" width="40" height="60" repeat="10 10"
+             geometry="height:25;width:25" position="47.094 0.05 -12.678"></a-plane>
+    <a-plane src="#groundTexture" rotation="-90.012 0 0" width="40" height="60" repeat="10 10"
+             position="-39.633 0 13.868" material="" geometry="height:39"></a-plane>
+    <a-plane src="#groundTexture" rotation="-90.012 0 0" width="40" height="60" repeat="10 10"
+             position="39.548 0 -29.756" material="" geometry=""></a-plane>
+    <a-plane src="#garageTexture" rotation="-90.012 90 0" width="40" height="60" repeat="1 1"
+             position="-48.784 .01 13.868" geometry="width:37.83;height:30"></a-plane>
+
+    <!-- lights-->
+    <a-light id="Lights" position="9 7 22" rotation="-90 0 0"
+             light="angle:75;decay:0;distance:10;intensity:0.5;penumbra:0.75;type:ambient"></a-light>
+    <a-light position="-23.646 10.485 -0.056" light="distance:10;intensity:0.01;angle:0;decay:0"></a-light>
+
+    <a-light position="-17.445 4 27.336" rotation="-90 180 180"
+             light="angle:45;decay:0.1;distance:3.01;type:spot"></a-light>
+    <a-light position="-11.438 4 27.142" rotation="-90 180 180"
+             light="angle:26;decay:0.1;distance:3;type:spot"></a-light>
+    <a-light position="-14.091 4 27.061" rotation="-90 180 180"
+             light="angle:21;decay:0.1;distance:3;type:spot"></a-light>
+    <a-light position="-8.1 4 26.989" rotation="-90 180 180" light="angle:21;decay:0.1;distance:3;type:spot"></a-light>
+    <a-light position="-4.759 4 27.403" rotation="-90 180 180"
+             light="angle:35;decay:0.1;distance:3;type:spot"></a-light>
+    <a-light position="-21.001 4 27.336" rotation="-90 180 180"
+             light="angle:30;decay:0.1;distance:3.01;type:spot"></a-light>
+
+    <a-light position="-17.445 7.5 27.336" rotation="-90 180 180"
+             light="angle:45;decay:0.1;distance:3.01;type:spot"></a-light>
+    <a-light position="-11.438 7.5 27.142" rotation="-90 180 180"
+             light="angle:26;decay:0.1;distance:3;type:spot"></a-light>
+    <a-light position="-14.091 7.5 27.061" rotation="-90 180 180"
+             light="angle:21;decay:0.1;distance:3;type:spot"></a-light>
+    <a-light position="-8.1000 7.5 26.989" rotation="-90 180 180"
+             light="angle:21;decay:0.1;distance:3;type:spot"></a-light>
+    <a-light position="-21.001 7.428 27.336" rotation="-90 180 180"
+             light="angle:30;decay:0.1;distance:3.01;type:spot"></a-light>
+    <a-light position="-4.759 8.548 27.561" rotation="-90.01166961505233 180.02333923010465 180.02333923010465"
+             light="distance:4;angle:35;decay:0.1;type:spot"></a-light>
+
+    <!--LIGHTBULBS-->
+    <a-entity id="LIGHT-1" obj-model="mtl:assets/LIGHT.mtl;obj:assets/LIGHT.obj" position="-17.47 4.876 27.198"
+              scale="2 2 2" rotation="0 0 180.02333923010465"></a-entity>
+    <a-entity id="LIGHT-2" obj-model="mtl:assets/LIGHT.mtl;obj:assets/LIGHT.obj" position="-14.089 4.876 27.198"
+              scale="2 2 2" rotation="0 0 180.02333923010465"></a-entity>
+    <a-entity id="LIGHT-3" obj-model="mtl:assets/LIGHT.mtl;obj:assets/LIGHT.obj" position="-11.442 4.876 27.198"
+              scale="2 2 2" rotation="0 0 180.02333923010465"></a-entity>
+    <a-entity id="LIGHT-4" obj-model="mtl:assets/LIGHT.mtl;obj:assets/LIGHT.obj" position="-8.154 4.876 27.198"
+              scale="2 2 2" rotation="0 0 180.02333923010465"></a-entity>
+    <a-entity id="LIGHT-5" obj-model="mtl:assets/LIGHT.mtl;obj:assets/LIGHT.obj" position="-4.668 4.876 27.198"
+              scale="2 2 2" rotation="0 0 180.02333923010465"></a-entity>
+    <a-entity id="LIGHT-6" obj-model="mtl:assets/LIGHT.mtl;obj:assets/LIGHT.obj" position="-4.668 9.428 27.198"
+              scale="2 2 2" rotation="0 0 180.02333923010465"></a-entity>
+    <a-entity id="LIGHT-7" obj-model="mtl:assets/LIGHT.mtl;obj:assets/LIGHT.obj" position="-17.493 9.428 27.198"
+              scale="2 2 2" rotation="0 0 180.02333923010465"></a-entity>
+    <a-entity id="LIGHT-8" obj-model="mtl:assets/LIGHT.mtl;obj:assets/LIGHT.obj" position="-14.06 9.428 27.198"
+              scale="2 2 2" rotation="0 0 180.02333923010465"></a-entity>
+    <a-entity id="LIGHT-9" obj-model="mtl:assets/LIGHT.mtl;obj:assets/LIGHT.obj" position="-11.465 9.428 27.198"
+              scale="2 2 2" rotation="0 0 180.02333923010465"></a-entity>
+    <a-entity id="LIGHT10" obj-model="mtl:assets/LIGHT.mtl;obj:assets/LIGHT.obj" position="-8.06 9.428 27.198"
+              scale="2 2 2" rotation="0 0 180.02333923010465"></a-entity>
+    <a-entity id="LIGHT-11" obj-model="mtl:assets/LIGHT.mtl;obj:assets/LIGHT.obj" position="-20.883 4.861 27.198"
+              scale="2 2 2" rotation="0 0 180.023"></a-entity>
+    <a-entity id="LIGHT-10" obj-model="mtl:assets/LIGHT.mtl;obj:assets/LIGHT.obj" position="-20.883 9.428 27.198"
+              scale="2 2 2" rotation="0 0 180.023"></a-entity>
+
 </a-scene>
 
 </body>
