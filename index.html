@@ -8,7 +8,21 @@
 <a-scene>
 
     <a-assets>
-        <audio id="blip1" src="assets/firework.wav"></audio>
+        <audio id="blip1" src="sounds/firework.wav"></audio>
+        <audio id="blip2" src="sounds/Link.wav"></audio>
+        <audio id="blip3" src="sounds/Playful R2D2.mp3"></audio>
+        <audio id="blip4" src="sounds/Pokeball.mp3"></audio>
+        <audio id="blip5" src="sounds/Dinosaur.wav"></audio>
+        <audio id="blip6" src="sounds/Fallout.wav"></audio>
+        <audio id="blip7" src="sounds/Futurama.mp3"></audio>
+        <audio id="blip8" src="sounds/Overwatch.mp3"></audio>
+        <audio id="blip9" src="sounds/Record Scratch.mp3"></audio>
+        <audio id="blip10" src="sounds/Robot.wav"></audio>
+        <audio id="blip11" src="sounds/Saucer.mp3"></audio>
+        <audio id="blip12" src="sounds/Squid.wav"></audio>
+        <audio id="blip13" src="sounds/Switch.mp3"></audio>
+        <audio id="blip14" src="sounds/Vader.wav"></audio>
+
         <img id="groundTexture" src="assets/floor.jpg">
         <img id="garageTexture" src="assets/concrete.jpg">
         <img id="bathTexture" src="assets/Bathroom.jpg">
@@ -25,7 +39,7 @@
     </a-assets>
 
     <a-sky src="#skyTexture"></a-sky>
-    
+
     <a-entity position="0 3 0">
         <a-camera universal-controls>
             <a-entity raycaster="far: 150; objects: .intersectable" cursor geometry="primitive: ring; radiusOuter: 0.015;
@@ -81,87 +95,87 @@
     <!--animated button-->
     <a-box color="blue" position="-18 4.2 -29.5" height=".5" width=".5" class="intersectable" material="" geometry="radius:0.3; primitive:cylinder" rotation="90 0 0" sound="on: click; src: #blip1"
            event-set__1="_event: mousedown; scale: 1 1 1"
-           event-set__2="_event: mouseup; scale: 1.2 1.2 1"
-           event-set__3="_event: mouseenter; scale: 1.2 1.2 1"
+           event-set__2="_event: mouseup; scale: 1.4 1.4 1.4"
+           event-set__3="_event: mouseenter; scale: 1.4 1.4 1.4"
            event-set__4="_event: mouseleave; scale: 1 1 1">
-        <a-animation begin="click" attribute="position" from="-18 4.2 -29.5" to="-18 4.2 -30" dur="1000"></a-animation>
+        <a-animation begin="click" attribute="position" from="-18 4.2 -29.5" to="-18 4.2 -29.7" dur="1000"></a-animation>
     </a-box>
     <a-box color="blue" position="-15 4.2 -29.5" height=".5" width=".5" class="intersectable" material="" geometry="radius:0.3; primitive:cylinder" rotation="90 0 0" sound="on: click; src: #blip1"
            event-set__1="_event: mousedown; scale: 1 1 1"
-           event-set__2="_event: mouseup; scale: 1.2 1.2 1"
-           event-set__3="_event: mouseenter; scale: 1.2 1.2 1"
+           event-set__2="_event: mouseup; scale: 1.4 1.4 1.4"
+           event-set__3="_event: mouseenter; scale: 1.4 1.4 1.4"
            event-set__4="_event: mouseleave; scale: 1 1 1">
-        <a-animation begin="click" attribute="position" from="-15 4.2 -29.5" to="-15 4.2 -30" dur="1000"></a-animation>
+        <a-animation begin="click" attribute="position" from="-15 4.2 -29.5" to="-15 4.2 -29.7" dur="1000"></a-animation>
     </a-box>
     <a-box color="blue" position="-12 4.2 -29.5" height=".5" width=".5" class="intersectable" material="" geometry="radius:0.3; primitive:cylinder" rotation="90 0 0" sound="on: click; src: #blip1"
            event-set__1="_event: mousedown; scale: 1 1 1"
-           event-set__2="_event: mouseup; scale: 1.2 1.2 1"
-           event-set__3="_event: mouseenter; scale: 1.2 1.2 1"
+           event-set__2="_event: mouseup; scale: 1.4 1.4 1.4"
+           event-set__3="_event: mouseenter; scale: 1.4 1.4 1.4"
            event-set__4="_event: mouseleave; scale: 1 1 1">
-        <a-animation begin="click" attribute="position" from="-12 4.2 -29.5" to="-12 4.2 -30" dur="1000"></a-animation>
+        <a-animation begin="click" attribute="position" from="-12 4.2 -29.5" to="-12 4.2 -29.7" dur="1000"></a-animation>
     </a-box>
     <a-box color="blue" position="-9 4.2 -29.5" height=".5" width=".5" class="intersectable" material="" geometry="radius:0.3; primitive:cylinder" rotation="90 0 0" sound="on: click; src: #blip1"
            event-set__1="_event: mousedown; scale: 1 1 1"
-           event-set__2="_event: mouseup; scale: 1.2 1.2 1"
-           event-set__3="_event: mouseenter; scale: 1.2 1.2 1"
+           event-set__2="_event: mouseup; scale: 1.4 1.4 1.4"
+           event-set__3="_event: mouseenter; scale: 1.4 1.4 1.4"
            event-set__4="_event: mouseleave; scale: 1 1 1">
-        <a-animation begin="click" attribute="position" from="-9 4.2 -29.5" to="-9 4.2 -30" dur="1000"></a-animation>
+        <a-animation begin="click" attribute="position" from="-9 4.2 -29.5" to="-9 4.2 -29.7" dur="1000"></a-animation>
     </a-box>
     <a-box color="blue" position="-6 4.2 -29.5" height=".5" width=".5" class="intersectable" material="" geometry="radius:0.3; primitive:cylinder" rotation="90 0 0" sound="on: click; src: #blip1"
            event-set__1="_event: mousedown; scale: 1 1 1"
-           event-set__2="_event: mouseup; scale: 1.2 1.2 1"
-           event-set__3="_event: mouseenter; scale: 1.2 1.2 1"
+           event-set__2="_event: mouseup; scale: 1.4 1.4 1.4"
+           event-set__3="_event: mouseenter; scale: 1.4 1.4 1.4"
            event-set__4="_event: mouseleave; scale: 1 1 1">
-        <a-animation begin="click" attribute="position" from="-6 4.2 -29.5" to="-6 4.2 -30" dur="1000"></a-animation>
+        <a-animation begin="click" attribute="position" from="-6 4.2 -29.5" to="-6 4.2 -29.7" dur="1000"></a-animation>
     </a-box>
     <a-box color="blue" position="-3 4.2 -29.5" height=".5" width=".5" class="intersectable" material="" geometry="radius:0.3; primitive:cylinder" rotation="90 0 0" sound="on: click; src: #blip1"
            event-set__1="_event: mousedown; scale: 1 1 1"
-           event-set__2="_event: mouseup; scale: 1.2 1.2 1"
-           event-set__3="_event: mouseenter; scale: 1.2 1.2 1"
+           event-set__2="_event: mouseup; scale: 1.4 1.4 1.4"
+           event-set__3="_event: mouseenter; scale: 1.4 1.4 1.4"
            event-set__4="_event: mouseleave; scale: 1 1 1">
-        <a-animation begin="click" attribute="position" from="-3 4.2 -29.5" to="-3 4.2 -30" dur="1000"></a-animation>
+        <a-animation begin="click" attribute="position" from="-3 4.2 -29.5" to="-3 4.2 -29.7" dur="1000"></a-animation>
     </a-box>
     <a-box color="blue" position="0 4.2 -29.5" height=".5" width=".5" class="intersectable" material="" geometry="radius:0.3; primitive:cylinder" rotation="90 0 0" sound="on: click; src: #blip1"
            event-set__1="_event: mousedown; scale: 1 1 1"
-           event-set__2="_event: mouseup; scale: 1.2 1.2 1"
-           event-set__3="_event: mouseenter; scale: 1.2 1.2 1"
+           event-set__2="_event: mouseup; scale: 1.4 1.4 1.4"
+           event-set__3="_event: mouseenter; scale: 1.4 1.4 1.4"
            event-set__4="_event: mouseleave; scale: 1 1 1">
-        <a-animation begin="click" attribute="position" from="0 4.2 -29.5" to="0 4.2 -30" dur="1000"></a-animation>
+        <a-animation begin="click" attribute="position" from="0 4.2 -29.5" to="0 4.2 -29.7" dur="1000"></a-animation>
     </a-box>
     <a-box color="blue" position="3 4.2 -29.5" height=".5" width=".5" class="intersectable" material="" geometry="radius:0.3; primitive:cylinder" rotation="90 0 0" sound="on: click; src: #blip1"
            event-set__1="_event: mousedown; scale: 1 1 1"
-           event-set__2="_event: mouseup; scale: 1.2 1.2 1"
-           event-set__3="_event: mouseenter; scale: 1.2 1.2 1"
+           event-set__2="_event: mouseup; scale: 1.4 1.4 1.4"
+           event-set__3="_event: mouseenter; scale: 1.4 1.4 1.4"
            event-set__4="_event: mouseleave; scale: 1 1 1">
-        <a-animation begin="click" attribute="position" from="3 4.2 -29.5" to="3 4.2 -30" dur="1000"></a-animation>
+        <a-animation begin="click" attribute="position" from="3 4.2 -29.5" to="3 4.2 -29.7" dur="1000"></a-animation>
     </a-box>
     <a-box color="blue" position="6 4.2 -29.5" height=".5" width=".5" class="intersectable" material="" geometry="radius:0.3; primitive:cylinder" rotation="90 0 0" sound="on: click; src: #blip1"
            event-set__1="_event: mousedown; scale: 1 1 1"
-           event-set__2="_event: mouseup; scale: 1.2 1.2 1"
-           event-set__3="_event: mouseenter; scale: 1.2 1.2 1"
+           event-set__2="_event: mouseup; scale: 1.4 1.4 1.4"
+           event-set__3="_event: mouseenter; scale: 1.4 1.4 1.4"
            event-set__4="_event: mouseleave; scale: 1 1 1">
-        <a-animation begin="click" attribute="position" from="6 4.2 -29.5" to="6 4.2 -30" dur="1000"></a-animation>
+        <a-animation begin="click" attribute="position" from="6 4.2 -29.5" to="6 4.2 -29.7" dur="1000"></a-animation>
     </a-box>
     <a-box color="blue" position="9 4.2 -29.5" height=".5" width=".5" class="intersectable" material="" geometry="radius:0.3; primitive:cylinder" rotation="90 0 0" sound="on: click; src: #blip1"
            event-set__1="_event: mousedown; scale: 1 1 1"
-           event-set__2="_event: mouseup; scale: 1.2 1.2 1"
-           event-set__3="_event: mouseenter; scale: 1.2 1.2 1"
+           event-set__2="_event: mouseup; scale: 1.4 1.4 1.4"
+           event-set__3="_event: mouseenter; scale: 1.4 1.4 1.4"
            event-set__4="_event: mouseleave; scale: 1 1 1">
-        <a-animation begin="click" attribute="position" from="9 4.2 -29.5" to="9 4.2 -30" dur="1000"></a-animation>
+        <a-animation begin="click" attribute="position" from="9 4.2 -29.5" to="9 4.2 -29.7" dur="1000"></a-animation>
     </a-box>
     <a-box color="blue" position="12 4.2 -29.5" height=".5" width=".5" class="intersectable" material="" geometry="radius:0.3; primitive:cylinder" rotation="90 0 0" sound="on: click; src: #blip1"
            event-set__1="_event: mousedown; scale: 1 1 1"
-           event-set__2="_event: mouseup; scale: 1.2 1.2 1"
-           event-set__3="_event: mouseenter; scale: 1.2 1.2 1"
+           event-set__2="_event: mouseup; scale: 1.4 1.4 1.4"
+           event-set__3="_event: mouseenter; scale: 1.4 1.4 1.4"
            event-set__4="_event: mouseleave; scale: 1 1 1">
-        <a-animation begin="click" attribute="position" from="12 4.2 -29.5" to="12 4.2 -30" dur="1000"></a-animation>
+        <a-animation begin="click" attribute="position" from="12 4.2 -29.5" to="12 4.2 -29.7" dur="1000"></a-animation>
     </a-box>
     <a-box color="blue" position="15 4.2 -29.5" height=".5" width=".5" class="intersectable" material="" geometry="radius:0.3; primitive:cylinder" rotation="90 0 0" sound="on: click; src: #blip1"
            event-set__1="_event: mousedown; scale: 1 1 1"
-           event-set__2="_event: mouseup; scale: 1.2 1.2 1"
-           event-set__3="_event: mouseenter; scale: 1.2 1.2 1"
+           event-set__2="_event: mouseup; scale: 1.4 1.4 1.4"
+           event-set__3="_event: mouseenter; scale: 1.4 1.4 1.4"
            event-set__4="_event: mouseleave; scale: 1 1 1">
-        <a-animation begin="click" attribute="position" from="15 4.2 -29.5" to="15 4.2 -30" dur="1000"></a-animation>
+        <a-animation begin="click" attribute="position" from="15 4.2 -29.5" to="15 4.2 -29.7" dur="1000"></a-animation>
     </a-box>
 
     <!--bookshelf-->
@@ -174,44 +188,55 @@
     <a-box src="#shelfTexture" color="tomato" height=".2" width="20" depth="5" position="-12.5 5 28"></a-box>
 
     <!--R2D2-->
-    <a-entity id="R2" obj-model="mtl:assets/R2D2.mtl;obj:assets/R2D2.obj" position="-11.438 2.199 26.992" rotation="0 68.04527863361662 0" scale="1.476 1.476 1.476">
+    <a-entity id="R2" obj-model="mtl:assets/R2D2.mtl;obj:assets/R2D2.obj" position="-11.438 2.199 26.992" rotation="0 68.04527863361662 0" scale="1.476 1.476 1.476" sound="on: click; src: #blip3">
+        <a-box color="red" height="5.5" width="5.5" depth="5.5" class="intersectable" scale="0.121 0.197 0.121" material="opacity:0;transparent:true"></a-box>
         <a-animation attribute="rotation" dur="10000" to="0 360 0" repeat="indefinite"></a-animation>
     </a-entity>
 
     <!--Link-->
-    <a-entity id="Link" obj-model="mtl:assets/Link.mtl;obj:assets/Link.obj" position="-4.616 2.611 27.445" rotation="0 -28.189523520436502 1.776169164905552" scale="0.269 0.269 0.269">
-        <a-animation attribute="rotation" dur="10000" to="0 360 0" repeat="indefinite"></a-animation>
-    </a-entity>
+    <a-entity id="Link" obj-model="mtl:assets/Link.mtl;obj:assets/Link.obj" position="-4.616 2.611 27.445" rotation="0 -28.189523520436502 1.776169164905552" scale="0.269 0.269 0.269" sound="on: click; src: #blip2">
+        <a-box color="red" height="5.5" width="5.5" depth="5.5" class="intersectable" scale="1.13 1.13 1.13" material="opacity:0"></a-box> </a-entity>
 
     <!--Overwatch-->
-    <a-entity id="Overwatch" obj-model="mtl:assets/Overwatch_LootBox.mtl;obj:assets/Overwatch_LootBox.obj" position="-8.736 1.609 27.651" scale="0.013 0.013 0.013"></a-entity>
+    <a-entity id="Overwatch" obj-model="mtl:assets/Overwatch_LootBox.mtl;obj:assets/Overwatch_LootBox.obj" position="-8.736 1.609 27.651" scale="0.013 0.013 0.013"sound="on: click; src: #blip8">
+        <a-box color="red" height="5.5" width="5.5" depth="5.5" class="intersectable" position="52.449 36.813 -48.615" scale="22.314 22.314 22.314" material="opacity:0;transparent:true"></a-box></a-entity>
 
     <!--Planet Ex Ship-->
-    <a-entity id="PlanetExShip" obj-model="mtl:assets/PlanetExShip.mtl;obj:assets/PlanetExShip.obj" position="-21.018 5.054 27.327" scale="-0.014 -0.014 -0.014" rotation="90.01166961505233 0 0"></a-entity>
+    <a-entity id="PlanetExShip" obj-model="mtl:assets/PlanetExShip.mtl;obj:assets/PlanetExShip.obj" position="-21.018 5.054 27.327" scale="-0.014 -0.014 -0.014" rotation="90.01166961505233 0 0"sound="on: click; src: #blip7">
+        <a-box color="red" height="5.5" width="5.5" depth="5.5" class="intersectable" position="0 0.009 44.6" scale="27.672 13.938 15.475" material="opacity:0;transparent:true"></a-box>
+    </a-entity>
 
     <!--Switch-->
-    <a-entity id="Switch" obj-model="mtl:assets/Switch.mtl;obj:assets/Switch.obj" position="-11.483 5.755 27.114" scale="0.337 0.337 0.337" rotation="0 151.83381570966816 0"></a-entity>
+    <a-entity id="Switch" obj-model="mtl:assets/Switch.mtl;obj:assets/Switch.obj" position="-11.483 5.755 27.114" scale="0.337 0.337 0.337" rotation="0 151.83381570966816 0"sound="on: click; src: #blip13">
+        <a-box color="red" height="5.5" width="5.5" depth="5.5" class="intersectable" rotation="0 119.46170028477664 0" scale="0.346 0.938 1.415" material="opacity:0;transparent:true"></a-box> </a-entity>
 
     <!--Saucer-->
-    <a-entity id="Saucer" obj-model="mtl:assets/flying sacuer.mtl;obj:assets/flying sacuer.obj" position="-14.126 5.509 27.043" scale="0.643 0.643 0.643" rotation="0 151.834 0"></a-entity>
+    <a-entity id="Saucer" obj-model="mtl:assets/flying sacuer.mtl;obj:assets/flying sacuer.obj" position="-14.126 5.509 27.043" scale="0.643 0.643 0.643" rotation="0 151.834 0"sound="on: click; src: #blip11">
+        <a-box color="red" height="5.5" width="5.5" depth="5.5" class="intersectable" scale="0.317 0.317 0.317" material="opacity:0;transparent:true"></a-box>  </a-entity>
 
     <!--Triceratops-->
-    <a-entity id="Triceratop" obj-model="mtl:assets/Triceratop.mtl;obj:assets/Triceratop.obj" position="-20.748 2.123 27.09" scale="1.341 1.341 1.341"></a-entity>
+    <a-entity id="Triceratop" obj-model="mtl:assets/Triceratop.mtl;obj:assets/Triceratop.obj" position="-20.748 2.123 27.09" scale="1.341 1.341 1.341"sound="on: click; src: #blip5">
+        <a-box color="red" height="5.5" width="5.5" depth="5.5" class="intersectable" scale="0.185 0.185 0.185" material="opacity:0;transparent:true"></a-box>  </a-entity>
 
     <!--Pokeball-->
-    <a-entity id="Poke" obj-model="mtl:assets/Poke.mtl;obj:assets/Poke.obj" position="-14.102 2.08 26.836" scale="4.49 4.49 4.49" rotation="0 -59.186540237014036 0"></a-entity>
+    <a-entity id="Poke" obj-model="mtl:assets/Poke.mtl;obj:assets/Poke.obj" position="-14.102 2.08 26.836" scale="4.49 4.49 4.49" rotation="0 -59.186540237014036 0"sound="on: click; src: #blip4">
+        <a-box color="red" height="5.5" width="5.5" depth="5.5" class="intersectable" scale="0.043 0.043 0.043" material="opacity:0;transparent:true"></a-box>   </a-entity>
 
     <!--Squid-->
-    <a-entity id="Squid" obj-model="mtl:assets/Squid.mtl;obj:assets/Squid.obj" position="-17.411 5.521 27.147" scale="1.05 1.05 1.05" rotation="7.219268218648373 -30.137580023881302 32.02834074781302"></a-entity>
+    <a-entity id="Squid" obj-model="mtl:assets/Squid.mtl;obj:assets/Squid.obj" position="-17.411 5.521 27.147" scale="1.05 1.05 1.05" rotation="7.219268218648373 -30.137580023881302 32.02834074781302"sound="on: click; src: #blip12">
+        <a-box color="red" height="5.5" width="5.5" depth="5.5" class="intersectable" position="1.042 -0.089 0.572" scale="0.609 0.198 0.319" material="opacity:0;transparent:true"></a-box>   </a-entity>
 
     <!--PipBoy-->
-    <a-entity id="Pipboy" obj-model="mtl:assets/Pipboy.mtl;obj:assets/Pipboy.obj" position="-8.356 5.58 26.925" scale="4.069 4.069 4.069"></a-entity>
+    <a-entity id="Pipboy" obj-model="mtl:assets/Pipboy.mtl;obj:assets/Pipboy.obj" position="-8.356 5.58 26.925" scale="4.069 4.069 4.069"sound="on: click; src: #blip6">
+        <a-box color="red" height="5.5" width="5.5" depth="5.5" class="intersectable" position="0.079 0.021 0.034" scale="0.075 0.049 0.059" material="opacity:0;transparent:true"></a-box>  </a-entity>
 
     <!--Phonograph-->
-    <a-entity id="Phonograph" obj-model="mtl:assets/Phonograph.mtl;obj:assets/Phonograph.obj" position="-4.866 5.737 27.445" rotation="0 -104.33561449332291 1.7188733853924696" scale="2.659 2.659 2.659"></a-entity>
+    <a-entity id="Phonograph" obj-model="mtl:assets/Phonograph.mtl;obj:assets/Phonograph.obj" position="-4.866 5.737 27.445" rotation="0 -104.33561449332291 1.7188733853924696" scale="2.659 2.659 2.659"sound="on: click; src: #blip9">
+        <a-box color="red" height="5.5" width="5.5" depth="5.5" class="intersectable" position="0.008 0.268 0" scale="0.165 0.178 0.165" material="opacity:0;transparent:true"></a-box>  </a-entity>
 
     <!-- Scott's StarDestroyer -->
-    <a-obj-model id="StarDestroyer" src="assets/StarDestroyer.obj" position="-17.568 1.65 27.646" scale="0.6 0.6 0.6" class="intersectable" material="src:#star" rotation="0 44.34693334312572 0"></a-obj-model>
+    <a-obj-model id="StarDestroyer" src="assets/StarDestroyer.obj" position="-17.568 1.65 27.646" scale="0.6 0.6 0.6" class="intersectable" material="src:#star" rotation="0 44.34693334312572 0"sound="on: click; src: #blip14">
+        <a-box color="red" height="5.5" width="5.5" depth="5.5" class="intersectable" position="0 0.264 0" scale="0.935 0.232 0.564" material="opacity:0;transparent:true"></a-box>  </a-obj-model>
 
     <!--Sofa-->
     <a-entity id="Couch" obj-model="mtl:assets/Couch.mtl;obj:assets/Couch.obj" rotation="0 180 0" position="8.584 1.409 13.793" scale="7.644 7.644 7.644"></a-entity>
@@ -293,7 +318,8 @@
     <a-entity id="LIGHT-8" obj-model="mtl:assets/LIGHT.mtl;obj:assets/LIGHT.obj" position="-14.06 9.428 27.198" scale="2 2 2" rotation="0 0 180.02333923010465"></a-entity>
     <a-entity id="LIGHT-9" obj-model="mtl:assets/LIGHT.mtl;obj:assets/LIGHT.obj" position="-11.465 9.428 27.198" scale="2 2 2" rotation="0 0 180.02333923010465"></a-entity>
     <a-entity id="LIGHT10" obj-model="mtl:assets/LIGHT.mtl;obj:assets/LIGHT.obj" position="-8.06 9.428 27.198" scale="2 2 2" rotation="0 0 180.02333923010465"></a-entity>
-
+    <a-entity id="LIGHT-11" obj-model="mtl:assets/LIGHT.mtl;obj:assets/LIGHT.obj" position="-20.883 4.861 27.198" scale="2 2 2" rotation="0 0 180.023"></a-entity>
+    <a-entity id="LIGHT-10" obj-model="mtl:assets/LIGHT.mtl;obj:assets/LIGHT.obj" position="-20.883 9.428 27.198" scale="2 2 2" rotation="0 0 180.023"></a-entity>
     <!--Ceiling Fan-->
     <a-entity id="Ceiling Fan" obj-model="mtl:assets/540 Ceiling Fan.mtl;obj:assets/540 Ceiling Fan.obj" position="9 7 22" rotation="0 46.32879561357526 0" scale="0.01 0.01 0.01">
         <a-animation attribute="rotation" dur="5000" to="0 720 0" repeat="indefinite"></a-animation>
@@ -332,7 +358,9 @@
     <a-entity id="TP-3" obj-model="mtl:assets/TP.mtl;obj:assets/TP.obj" position="-32.092 7.472 0.5" scale="10.018 3.684 3.684" rotation="0 0 90"></a-entity>
 
     <!--Robot-->
-    <a-entity id="Robot" obj-model="mtl:assets/robit.mtl;obj:assets/robit.obj" position="27.756 4.471 -7.09" scale="5.261 5.261 5.261" rotation="0 90.01166961505233 0"></a-entity>
+    <a-entity id="Robot" obj-model="mtl:assets/robit.mtl;obj:assets/robit.obj" position="27.756 4.471 -7.09" scale="5.261 5.261 5.261" rotation="0 90.01166961505233 0"sound="on: click; src: #blip10">
+        <a-box color="red" height="5.5" width="5.5" depth="5.5" class="intersectable" position="0 -0.168 0" scale="0.152 0.211 0.125" material="opacity:0;transparent:true"></a-box>
+    </a-entity>
 
     <!--Wizard-->
     <a-entity id="Wizard table" obj-model="mtl:assets/Wizard.mtl;obj:assets/Wizard.obj" position="23.923 2.93 -39.902" scale="2.665 3.758 3.589"></a-entity>

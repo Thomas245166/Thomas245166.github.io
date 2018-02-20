@@ -4,7 +4,72 @@ Thomas Sanchez
 
 All rights reserved
 
+See example here: https://github.com/manorepo/Text-Visualization
+
+Create a 1-minute video showing the use of your application with your voice over.
+ 
+That video should appear on the top of your github readme file. 
+
+The video can be used as a backup during your presentation just in case of something go wrong.
+
+Add a link to your web-based application (right after the video).
+
+You can host it on your github or your ttu personal page.
+
+Clearly explain the duties of each student in your group (if you work as a group).
+
+Describe your application by screenshots (with meaningful captions) and text. 
+
+Make sure you have the list and screenshots of models.
+
+Links to all the source code and any assets (models, textures, sounds). Make sure you source code is well-commented.
+
+
+The presentation is 5 minutes per person (everyone needs to present). 
+
+It is 4-minute talk and 1 minute for questions. You can present directly on your report (slides are not required). 
+
+Make sure that you are ready to talk right after the person/group in front of you is done.
+
+Show a live demo of your work: Show the basic functionality and emphasize why your VR is different. 
+
+You should include screenshots in your report/slides as well.
+
+Make sure your demo/app is self-contained: No hidden keyboard/mouse control, no hidden functionality (for example, users might not know that they have to click on the Angry bird to play the sound). In case you have these hidden controls, you need to make them available in the GUI:
+
+Use highlighting principles (such as blinking) in my lecture 4.
+
+A help menu is useful for uses of keyboard/mouse and it can work as a quick manual.
+
+Please practice your talk.
+
 #Credit
+
+Link sound: http://noproblo.dayjo.org/ZeldaSounds/
+
+R2D2 sound: http://www.soundboard.com/sb/sound/301591
+
+Pokeball sound: https://www.emp3e.com/download/puDn4cO4xOg/sound-effects-pok%C3%A9mon-anime-9-the-pop-pok%C3%A9ball-sound.html
+
+Overwatch sound: https://overwatch.gamepedia.com/Category:L%C3%BAcio_sound_files
+
+Futurama sound: http://www.futurama-madhouse.net/sounds/1acv01.shtml
+
+Switch sound: https://www.myinstants.com/instant/nintendo-switch-click-69023/
+
+Saucer sound: http://www.moviewavs.com/php/sounds/?id=bst&media=WAVS&type=TV_Shows&movie=X-Files&quote=xfiles.txt&file=xfiles.wav
+
+Dinosaur sound: http://soundbible.com/1748-Tyrannosaurus-Rex-Roar.html
+
+Squid sound: http://www.mariomayhem.com/downloads/sounds/new_super_mario_bros_wii_sound_effects.php
+
+Fallout sound: https://www.dropbox.com/s/26kuqbckegj5hh9/Pipboy%20%26%20UI%20Sounds.rar?dl=0
+
+Record Scratch sound: http://www.freesfx.co.uk/soundeffects/vinyl_record_players/
+
+Vader sound: http://www.thesoundarchive.com/play-wav-files.asp?sound=starwars/swvader01.wav
+
+Robot sound: http://soundbible.com/1170-Morse-Code.html
 
 Teh LaughingMan: Planet Express Ship
 https://poly.google.com/view/4FjZ6AzqTQI
