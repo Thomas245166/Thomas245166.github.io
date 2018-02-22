@@ -147,6 +147,18 @@ For mobile devices users, movement is done by tapping and holding the screen, ta
 with the models
 
 
+# Original Issues
+
+While designing the VR space using the visual inspector, I would copy the entities using the built in button in the
+web inspector. Doing this however would cause some attributes to be redefined if they were edited using the web
+inspector. For example: <a-plane src="#groundTexture" rotation="-90.012 0 0" width="40" height="60" repeat="10 10" 
+    position="39.548 0 -29.756" geometry="height = 20; width=10"></a-plane> this would cause the obj to have two
+dimensions and then would not render within the mobile platforms. I was able to find this issue by going through
+and commenting out everything and then slowly reintroducing them one by one until the problem was found and then 
+corrected by only defining the dimensions only once.
+                            
+
+
 # Credits
 
 Link sound: http://noproblo.dayjo.org/ZeldaSounds/
